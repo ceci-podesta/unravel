@@ -1,0 +1,80 @@
+=== Inspeccion de predicciones del LoRA sobre val set ===
+
+Configuracion del run: r=8, alpha=16, lora_dropout=0.1, lr=5e-4,
+10 epochs, head=both. Best checkpoint: best_lora/ (val_CER=0.7932).
+
+=== Stats globales sobre val (610 muestras validas) ===
+  Aciertos word-level: 5 (0.8%)
+  Errores: 605
+
+=== TODOS los aciertos (5) ===
+  L 5  real='estar'    pred='estar'
+  L 4  real='lado'     pred='lado'
+  L 6  real='ciento'   pred='ciento'
+  L 2  real='mi'       pred='mi'
+  L 5  real='ellas'    pred='ellas'
+
+=== Muestra de 30 errores (real -> predicho) ===
+  L 2  real='ya'       pred='o'
+  L 5  real='entre'    pred=''
+  L 7  real='durante'  pred='i'
+  L 2  real='un'       pred=''
+  L 2  real='si'       pred='15'
+  L 5  real='habia'    pred='rao'
+  L 6  real='tiempo'   pred='F'
+  L 5  real='mismo'    pred='F3'
+  L 3  real='ese'      pred=''
+  L 4  real='como'     pred=''
+  L 4  real='esta'     pred=''
+  L 3  real='ano'      pred=''
+  L 2  real='mi'       pred=''
+  L 5  real='antes'    pred='m24'
+  L 3  real='que'      pred=''
+  L 1  real='1'        pred=''
+  L 1  real='2'        pred=''
+  L 5  real='cosas'    pred=''
+  L 2  real='he'       pred=''
+  L 5  real='poder'    pred=''
+  L 8  real='nacional' pred=''
+  L 5  real='mayor'    pred=''
+  L 5  real='otras'    pred='F22'
+  L 7  real='embargo'  pred=''
+  L 4  real='algo'     pred='723'
+  L 4  real='tipo'     pred='F'
+  L 4  real='ayer'     pred=''
+  L 5  real='noche'    pred=''
+  L 5  real='quien'    pred=''
+  L 5  real='seria'    pred='7'
+
+=== Top 10 predicciones mas frecuentes (en errores) ===
+   385x  ''        <- VACIO domina (63% de errores)
+     7x  'F'
+     5x  'a'
+     4x  'd'
+     3x  'o'
+     3x  '5'
+     3x  'e'
+     3x  'de'
+     3x  'u'
+     2x  'ent'
+
+=== Lectura clave ===
+
+1. Aciertos word-level pasaron de ~6/861 (zero-shot, 0.7%) a 5/610
+   (LoRA, 0.8%). Marginal numericamente PERO los aciertos cambiaron
+   cualitativamente: en zero-shot eran solo letras minusculas sueltas
+   (m, b, f, ...), ahora son palabras enteras de espanol (estar, lado,
+   ciento, mi, ellas).
+
+2. El sesgo a '#' del zero-shot DESAPARECIO. Ahora el sesgo es a
+   STRING VACIO (385/605 = 63% de errores). El modelo aprendio a
+   "dudar" en lugar de "rellenar con #". Es un cambio cualitativo
+   interesante.
+
+3. Cuando el modelo arriesga algo no-vacio, suele ser caracteres
+   sueltos (F, a, d, o, e) o pseudo-numeros (15, F3, m24, 723, F22).
+
+4. Implicacion para proximas iteraciones: subir capacidad (r mayor o
+   mas target_modules) podria empujar al modelo a arriesgar mas en
+   lugar de "rendirse" con vacio. Tambien mas epochs podrian dar mas
+   confianza al modelo.
