@@ -142,3 +142,123 @@ def test_lora_conv2d_cantidad_de_parametros_entrenables():
     assert trainable == expected, (
         f"Esperaba {expected} parámetros entrenables, pero hay {trainable}"
     )
+
+
+def test_apply_lora_manual_reemplaza_y_preserva_forward():
+    """En un modelo simple, apply_lora_manual debe:
+    1. Reemplazar los módulos target con wrappers LoRA del tipo correcto.
+    2. Preservar el forward del modelo en step 0 (B init en ceros).
+    3. Devolver stats coherentes con la suma esperada.
+    """
+    import torch
+    import torch.nn as nn
+    from unravel.lora_manual import LoraConv2d, LoraLinear, apply_lora_manual
+
+    torch.manual_seed(42)
+
+    class TinyNet(nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.conv = nn.Conv2d(3, 8, kernel_size=3, padding=1)
+            self.fc = nn.Linear(8, 4)
+
+        def forward(self, x):
+            x = self.conv(x)
+            x = x.mean(dim=(2, 3))  # global avg pool
+            return self.fc(x)
+
+    net = TinyNet()
+    x = torch.randn(2, 3, 8, 8)
+    y_before = net(x).detach().clone()
+
+    net, stats = apply_lora_manual(net, target_modules=["conv", "fc"], r=8, alpha=16)
+
+    assert isinstance(net.conv, LoraConv2d)
+    assert isinstance(net.fc, LoraLinear)
+
+    y_after = net(x)
+    assert torch.allclose(y_before, y_after), (
+        "El forward del modelo cambió tras aplicar LoRA en init"
+    )
+
+    expected_lora_conv = 8 * (3 * 3 * 3) + (8 * 8)  # 216 + 64
+    expected_lora_fc = 8 * (8 + 4)  # 96
+    assert stats["trainable_params"] == expected_lora_conv + expected_lora_fc
+
+
+def test_apply_lora_manual_sobre_htrnet():
+    """Aplicar sobre HTRNet con los targets default debe reemplazar
+    top.fnl[1] y top.cnn[1] con wrappers LoRA, dejando el resto intacto.
+    Valida que el path resolution funciona en árboles anidados reales.
+    """
+    from unravel.htr_model import HTRNet, default_arch_cfg
+    from unravel.lora_manual import LoraConv2d, LoraLinear, apply_lora_manual
+
+    nclasses = 80
+    net = HTRNet(default_arch_cfg(), nclasses)
+    net, stats = apply_lora_manual(net, r=8, alpha=16)  # default targets
+
+    # Targets reemplazados.
+    assert isinstance(net.top.fnl[1], LoraLinear)
+    assert isinstance(net.top.cnn[1], LoraConv2d)
+
+    # Resto intacto (sample check).
+    assert isinstance(net.top.fnl[0], nn.Dropout)
+    assert isinstance(net.top.rec, nn.LSTM)
+
+    # % entrenable razonable: estamos tocando solo dos cabezas, debería ser bajo.
+    assert 0.0 < stats["percent_trainable"] < 5.0, (
+        f"% entrenable inesperado: {stats['percent_trainable']:.2f}%"
+    )
+
+
+def test_apply_lora_manual_falla_si_target_no_es_linear_ni_conv2d():
+    """Si el target apunta a otro tipo de módulo (LSTM, etc.), debe ValueError."""
+    import pytest
+    from unravel.lora_manual import apply_lora_manual
+
+    class TinyNet(nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.rnn = nn.LSTM(8, 8)
+
+        def forward(self, x):
+            return self.rnn(x)
+
+    net = TinyNet()
+    with pytest.raises(ValueError, match="se esperaba nn.Linear o nn.Conv2d"):
+        apply_lora_manual(net, target_modules=["rnn"], r=8)
+
+
+def test_lora_state_dict_extrae_solo_pesos_lora():
+    """lora_state_dict debe devolver solo las claves de los pesos LoRA
+    (lora_A.weight y lora_B.weight de cada wrapper), no las de las capas
+    originales congeladas ni otros parámetros del modelo.
+    """
+    from unravel.lora_manual import apply_lora_manual, lora_state_dict
+
+    class TinyNet(nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.conv = nn.Conv2d(3, 8, kernel_size=3, padding=1)
+            self.fc = nn.Linear(8, 4)
+
+        def forward(self, x):
+            x = self.conv(x).mean(dim=(2, 3))
+            return self.fc(x)
+
+    net = TinyNet()
+    net, _ = apply_lora_manual(net, target_modules=["conv", "fc"], r=8, alpha=16)
+
+    state = lora_state_dict(net)
+
+    # 4 claves esperadas: lora_A.weight + lora_B.weight para cada wrapper.
+    assert len(state) == 4, (
+        f"Esperaba 4 claves LoRA, hay {len(state)}: {list(state.keys())}"
+    )
+    # Todas las claves contienen lora_A o lora_B.
+    for k in state:
+        assert "lora_A" in k or "lora_B" in k, f"Clave inesperada: {k}"
+    # Ninguna corresponde a la capa original.
+    for k in state:
+        assert "original" not in k, f"Clave de original aparece en state: {k}"

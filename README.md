@@ -141,6 +141,27 @@ experiments/06_lora_real_only/
     └── adapter_model.safetensors
 ```
 
+### LoRA fine-tuning manual (sin PEFT)
+
+Implementación alternativa de LoRA escrita a mano (sin la librería PEFT).
+Vive en `unravel.lora_manual` y se entrena con:
+
+```bash
+uv run python -m unravel.train_lora_manual \
+    --outputs experiments/M01_lora_manual_replica_peft/
+```
+
+Acepta los mismos flags que `train_lora` (mismos hiperparámetros, mismo
+formato de output: `metrics_per_step.csv`, `metrics_per_epoch.csv`,
+`summary.json`, plots). La diferencia está en cómo se guarda el checkpoint
+del mejor epoch: un único archivo `best_lora.pt` (con `torch.save` y solo
+los pesos LoRA), no como una carpeta con safetensors.
+
+Por qué tener una versión manual: permite extender LoRA a capas que PEFT
+no cubre (matrices internas del LSTM, Conv2d del backbone), da control
+total sobre qué entrena y qué no, y entendimiento profundo de la mecánica
+de LoRA.
+
 ## Tests
 
 ```bash
@@ -163,8 +184,10 @@ unravel/
 │   ├── extend_vocab.py       # Extiende capas de salida del modelo
 │   ├── ctc_utils.py          # Collate function + CTC loss helper
 │   ├── lora_setup.py         # Wrapper de PEFT/LoRA
+│   ├── lora_manual.py        # LoraLinear/LoraConv2d/apply_lora_manual (sin PEFT)
 │   ├── evaluate_zero_shot.py # Eval zero-shot
-│   ├── train_lora.py         # Training script de fine-tuning LoRA
+│   ├── train_lora.py         # Training script de fine-tuning LoRA (vía PEFT)
+│   ├── train_lora_manual.py  # Training script de fine-tuning LoRA (manual)
 │   ├── explore.py            # Inspección del dataset
 │   └── metrics.py            # CER (micro/macro), WER, edit_distance
 ├── tests/                    # pytest, 60 tests
