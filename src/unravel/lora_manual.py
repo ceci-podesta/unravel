@@ -195,6 +195,13 @@ def apply_lora_manual(
     if target_modules is None:
         target_modules = list(DEFAULT_TARGET_MODULES)
 
+    # Detectar el device del modelo. Los wrappers que creemos arrancan en CPU;
+    # al final movemos todo al device original para evitar mismatches.
+    try:
+        device = next(net.parameters()).device
+    except StopIteration:
+        device = torch.device("cpu")
+
     # Congelamos TODOS los parámetros del modelo antes de aplicar wrappers.
     # Los wrappers van a crear sus propios A y B (entrenables por default),
     # así que el net resultante solo tiene los LoRA como entrenables.
@@ -213,6 +220,9 @@ def apply_lora_manual(
                 f"se esperaba nn.Linear o nn.Conv2d"
             )
         _set_child(parent, attr_name, wrapper)
+
+    # Movemos el modelo al device original (los wrappers nuevos se mueven con él).
+    net = net.to(device)
 
     trainable = sum(p.numel() for p in net.parameters() if p.requires_grad)
     total = sum(p.numel() for p in net.parameters())
