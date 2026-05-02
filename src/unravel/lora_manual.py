@@ -214,10 +214,12 @@ def apply_lora_manual(
             wrapper = LoraLinear(original, r=r, alpha=alpha, dropout=dropout)
         elif isinstance(original, nn.Conv2d):
             wrapper = LoraConv2d(original, r=r, alpha=alpha, dropout=dropout)
+        elif isinstance(original, nn.LSTM):
+            wrapper = LoraLSTM(original, r=r, alpha=alpha, dropout=dropout)
         else:
             raise ValueError(
                 f"Módulo {name!r} es {type(original).__name__}, "
-                f"se esperaba nn.Linear o nn.Conv2d"
+                f"se esperaba nn.Linear, nn.Conv2d o nn.LSTM"
             )
         _set_child(parent, attr_name, wrapper)
 
@@ -278,3 +280,241 @@ def lora_state_dict(model: nn.Module) -> dict:
         for k, v in model.state_dict().items()
         if "lora_A" in k or "lora_B" in k
     }
+
+
+class LoraLSTMCell(nn.Module):
+    """LoRA wrapper para una celda LSTM (un step temporal, una dirección).
+
+    A diferencia de LoraLinear y LoraConv2d, esta clase NO envuelve un módulo
+    original — reimplementa el cómputo del cell manualmente, porque la
+    corrección LoRA tiene que sumarse ANTES de las activaciones (sigmoid/tanh)
+    que cierran cada gate.
+
+    Recibe directamente los 4 tensores de pesos del LSTM original (weight_ih,
+    weight_hh, bias_ih, bias_hh) y los guarda como buffers (congelados,
+    se mueven con .to(device) pero no se actualizan). Aplica LoRA al tensor
+    concatenado weight_ih (4*hidden × input) y al weight_hh (4*hidden × hidden),
+    según la decisión B-2: una A compartida entre las 4 gates de cada set,
+    pero la matriz B se rompe en 4 sub-bloques verticalmente, dándole a cada
+    gate su propia corrección.
+
+    Args:
+        weight_ih: shape (4*hidden, input_size). Congelado.
+        weight_hh: shape (4*hidden, hidden_size). Congelado.
+        bias_ih:   shape (4*hidden,). Congelado.
+        bias_hh:   shape (4*hidden,). Congelado.
+        r: rango LoRA. Mismo para los dos bloques (ih y hh).
+        alpha: factor de escala. Convención alpha = 2 * r.
+        dropout: dropout aplicado al input y al estado anterior antes de
+            entrar a la rama LoRA.
+
+    Forward(x, (h_prev, c_prev)) -> (h_new, c_new), igual que nn.LSTMCell.
+    """
+
+    def __init__(
+        self,
+        weight_ih: torch.Tensor,
+        weight_hh: torch.Tensor,
+        bias_ih: torch.Tensor,
+        bias_hh: torch.Tensor,
+        r: int = 8,
+        alpha: int = 16,
+        dropout: float = 0.0,
+    ) -> None:
+        super().__init__()
+        if r <= 0:
+            raise ValueError(f"r debe ser > 0, recibí {r}")
+
+        # Pesos del LSTM original como nn.Parameter con requires_grad=False:
+        # se mueven con .to(device), entran en state_dict, y SÍ se cuentan en
+        # net.parameters() (necesario para que el % entrenable de stats sea
+        # coherente con LoraLinear/LoraConv2d que envuelven módulos cuyos weights
+        # ya son Parameters). No se actualizan porque tienen requires_grad=False.
+        self.weight_ih = nn.Parameter(weight_ih.detach().clone(), requires_grad=False)
+        self.weight_hh = nn.Parameter(weight_hh.detach().clone(), requires_grad=False)
+        self.bias_ih = nn.Parameter(bias_ih.detach().clone(), requires_grad=False)
+        self.bias_hh = nn.Parameter(bias_hh.detach().clone(), requires_grad=False)
+
+        input_size = weight_ih.shape[1]
+        hidden_size = weight_ih.shape[0] // 4
+
+        # LoRA para weight_ih: A (input → r), B (r → 4*hidden).
+        self.lora_ih_A = nn.Linear(input_size, r, bias=False)
+        nn.init.kaiming_uniform_(self.lora_ih_A.weight, a=math.sqrt(5))
+        self.lora_ih_B = nn.Linear(r, 4 * hidden_size, bias=False)
+        nn.init.zeros_(self.lora_ih_B.weight)
+
+        # LoRA para weight_hh: A (hidden → r), B (r → 4*hidden).
+        self.lora_hh_A = nn.Linear(hidden_size, r, bias=False)
+        nn.init.kaiming_uniform_(self.lora_hh_A.weight, a=math.sqrt(5))
+        self.lora_hh_B = nn.Linear(r, 4 * hidden_size, bias=False)
+        nn.init.zeros_(self.lora_hh_B.weight)
+
+        self.scaling = alpha / r
+        self.lora_dropout = nn.Dropout(dropout) if dropout > 0 else nn.Identity()
+
+        self.input_size = input_size
+        self.hidden_size = hidden_size
+        self.r = r
+        self.alpha = alpha
+
+    def forward(
+        self,
+        x: torch.Tensor,
+        state: tuple[torch.Tensor, torch.Tensor],
+    ) -> tuple[torch.Tensor, torch.Tensor]:
+        h_prev, c_prev = state
+
+        # Pre-activation gates: parte original (con pesos congelados).
+        gates_orig = (
+            nn.functional.linear(x, self.weight_ih, self.bias_ih)
+            + nn.functional.linear(h_prev, self.weight_hh, self.bias_hh)
+        )
+        # Corrección LoRA: dropout → A → B (ih y hh) y se suma escalada.
+        x_drop = self.lora_dropout(x)
+        h_drop = self.lora_dropout(h_prev)
+        gates_lora = (
+            self.lora_ih_B(self.lora_ih_A(x_drop))
+            + self.lora_hh_B(self.lora_hh_A(h_drop))
+        )
+        gates = gates_orig + self.scaling * gates_lora
+
+        # Cuatro gates: input, forget, cell candidate, output.
+        i, f, g, o = gates.chunk(4, dim=-1)
+        i = torch.sigmoid(i)
+        f = torch.sigmoid(f)
+        g = torch.tanh(g)
+        o = torch.sigmoid(o)
+
+        # Update memoria y output.
+        c = f * c_prev + i * g
+        h = o * torch.tanh(c)
+        return h, c
+
+    def extra_repr(self) -> str:
+        return (
+            f"input_size={self.input_size}, hidden_size={self.hidden_size}, "
+            f"r={self.r}, alpha={self.alpha}, scaling={self.scaling}"
+        )
+
+
+class LoraLSTM(nn.Module):
+    """LSTM bidireccional multi-capa con LoRA aplicado a cada celda interna.
+
+    Reemplaza un nn.LSTM original con un grid de LoraLSTMCell — una celda por
+    cada (capa, dirección). El forward replica el comportamiento de nn.LSTM:
+    para cada capa, las direcciones procesan la secuencia en paralelo, sus
+    outputs se concatenan en la dimensión de features, y eso es el input de
+    la próxima capa. Si el LSTM original tiene dropout entre capas, se aplica.
+
+    forward(x, hidden=None) -> (output, (h_n, c_n)) — misma API que nn.LSTM.
+
+    Args:
+        original: nn.LSTM con los pesos preentrenados. Se respeta su input_size,
+            hidden_size, num_layers, bidirectional, batch_first y dropout.
+        r: rango LoRA, mismo para todas las celdas.
+        alpha: factor de escala.
+        dropout: dropout dentro de la rama LoRA (no es el dropout entre capas).
+    """
+
+    def __init__(
+        self,
+        original: nn.LSTM,
+        r: int = 8,
+        alpha: int = 16,
+        dropout: float = 0.0,
+    ) -> None:
+        super().__init__()
+        self.input_size = original.input_size
+        self.hidden_size = original.hidden_size
+        self.num_layers = original.num_layers
+        self.bidirectional = bool(original.bidirectional)
+        self.batch_first = bool(original.batch_first)
+        self.num_directions = 2 if self.bidirectional else 1
+        self.layer_dropout = (
+            nn.Dropout(original.dropout) if original.dropout > 0 else nn.Identity()
+        )
+
+        # Una celda por (capa, dirección), copiando los pesos del nn.LSTM original.
+        self.cells = nn.ModuleList()
+        for layer in range(self.num_layers):
+            for direction in range(self.num_directions):
+                suffix = "_reverse" if direction == 1 else ""
+                weight_ih = getattr(original, f"weight_ih_l{layer}{suffix}")
+                weight_hh = getattr(original, f"weight_hh_l{layer}{suffix}")
+                bias_ih = getattr(original, f"bias_ih_l{layer}{suffix}")
+                bias_hh = getattr(original, f"bias_hh_l{layer}{suffix}")
+                cell = LoraLSTMCell(
+                    weight_ih, weight_hh, bias_ih, bias_hh,
+                    r=r, alpha=alpha, dropout=dropout,
+                )
+                self.cells.append(cell)
+
+        self.r = r
+        self.alpha = alpha
+
+    def _cell(self, layer: int, direction: int) -> LoraLSTMCell:
+        return self.cells[layer * self.num_directions + direction]
+
+    def forward(
+        self,
+        x: torch.Tensor,
+        hidden: tuple[torch.Tensor, torch.Tensor] | None = None,
+    ) -> tuple[torch.Tensor, tuple[torch.Tensor, torch.Tensor]]:
+        # Internamente trabajamos en (batch, seq, features); convertimos si hace falta.
+        if not self.batch_first:
+            x = x.transpose(0, 1)
+        batch_size, seq_len, _ = x.shape
+
+        if hidden is None:
+            shape = (self.num_layers * self.num_directions, batch_size, self.hidden_size)
+            h0 = x.new_zeros(shape)
+            c0 = x.new_zeros(shape)
+        else:
+            h0, c0 = hidden
+
+        layer_input = x
+        h_out_all: list[torch.Tensor] = []
+        c_out_all: list[torch.Tensor] = []
+
+        for layer in range(self.num_layers):
+            outputs_per_dir: list[torch.Tensor] = []
+            for direction in range(self.num_directions):
+                idx = layer * self.num_directions + direction
+                h = h0[idx]
+                c = c0[idx]
+                cell = self._cell(layer, direction)
+
+                # Recorrer la secuencia en el orden correspondiente a la dirección.
+                step_outputs: list[torch.Tensor] = []
+                times = range(seq_len) if direction == 0 else range(seq_len - 1, -1, -1)
+                for t in times:
+                    h, c = cell(layer_input[:, t, :], (h, c))
+                    step_outputs.append(h)
+                if direction == 1:
+                    step_outputs = list(reversed(step_outputs))
+                seq_out = torch.stack(step_outputs, dim=1)
+                outputs_per_dir.append(seq_out)
+                h_out_all.append(h)
+                c_out_all.append(c)
+
+            # Concatenar las direcciones por la dimensión de features.
+            layer_input = torch.cat(outputs_per_dir, dim=-1)
+            # Dropout entre capas (igual que nn.LSTM, no se aplica después de la última).
+            if layer < self.num_layers - 1:
+                layer_input = self.layer_dropout(layer_input)
+
+        output = layer_input
+        h_n = torch.stack(h_out_all, dim=0)
+        c_n = torch.stack(c_out_all, dim=0)
+
+        if not self.batch_first:
+            output = output.transpose(0, 1)
+        return output, (h_n, c_n)
+
+    def extra_repr(self) -> str:
+        return (
+            f"input_size={self.input_size}, hidden_size={self.hidden_size}, "
+            f"num_layers={self.num_layers}, bidirectional={self.bidirectional}, "
+            f"batch_first={self.batch_first}, r={self.r}, alpha={self.alpha}"
+        )

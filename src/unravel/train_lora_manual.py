@@ -133,6 +133,15 @@ def main() -> int:
     parser.add_argument("--lora-dropout", type=float, default=0.1)
     parser.add_argument("--head", choices=["rnn", "cnn", "both"], default="both")
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument(
+        "--target-modules", nargs="+",
+        default=["top.fnl.1", "top.cnn.1"],
+        help="Paths dotted a los módulos LoRA. Ej: top.fnl.1 top.cnn.1 top.rec",
+    )
+    parser.add_argument(
+        "--patience", type=int, default=0,
+        help="Early stopping: cortar si val_CER no mejora en N epochs consecutivos. 0 = deshabilitado.",
+    )
     parser.add_argument("--max-train-batches", type=int, default=None,
                         help="Si se setea, corta el train epoch a N batches (para dry-run)")
     parser.add_argument("--max-val-batches", type=int, default=None,
@@ -158,7 +167,7 @@ def main() -> int:
     net = net.to(device)
 
     # Aplicar LoRA
-    peft_model, lora_stats = apply_lora_manual(net, r=args.r, alpha=args.alpha, dropout=args.lora_dropout)
+    peft_model, lora_stats = apply_lora_manual(net, target_modules=args.target_modules, r=args.r, alpha=args.alpha, dropout=args.lora_dropout)
     print(f"[INFO] LoRA: {lora_stats['trainable_params']:,} / {lora_stats['total_params']:,} "
           f"trainable ({lora_stats['percent_trainable']:.2f}%)")
 
@@ -199,6 +208,7 @@ def main() -> int:
         "train_loss": [], "val_loss": [], "val_cer_micro": [], "val_wer": [],
     }
     best_val_cer = float("inf")
+    epochs_without_improvement = 0
     start_time = time.time()
 
     for epoch in range(args.epochs):
@@ -244,13 +254,21 @@ def main() -> int:
               f"val_CER={val_metrics['cer_micro']:.4f}  "
               f"val_WER={val_metrics['wer']:.4f} ===")
 
-        # Checkpoint best
+        # Checkpoint best + tracking de early stopping.
         if val_metrics["cer_micro"] < best_val_cer:
             best_val_cer = val_metrics["cer_micro"]
+            epochs_without_improvement = 0
             checkpoint_path = args.outputs / "best_lora.pt"
             torch.save(lora_state_dict(peft_model), checkpoint_path)
             print(f"  [INFO] checkpoint guardado en {checkpoint_path} "
                   f"(val_CER={best_val_cer:.4f})")
+        else:
+            epochs_without_improvement += 1
+            if args.patience > 0:
+                print(f"  [INFO] sin mejora en val_CER ({epochs_without_improvement}/{args.patience} epochs)")
+                if epochs_without_improvement >= args.patience:
+                    print(f"[INFO] Early stopping en epoch {epoch}: sin mejora en val_CER por {args.patience} epochs consecutivos.")
+                    break
 
     step_f.close()
     epoch_f.close()

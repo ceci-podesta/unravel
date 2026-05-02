@@ -212,22 +212,22 @@ def test_apply_lora_manual_sobre_htrnet():
     )
 
 
-def test_apply_lora_manual_falla_si_target_no_es_linear_ni_conv2d():
-    """Si el target apunta a otro tipo de módulo (LSTM, etc.), debe ValueError."""
+def test_apply_lora_manual_falla_si_target_no_es_un_tipo_soportado():
+    """Si el target apunta a un tipo no soportado (BatchNorm2d), debe ValueError."""
     import pytest
     from unravel.lora_manual import apply_lora_manual
 
     class TinyNet(nn.Module):
         def __init__(self):
             super().__init__()
-            self.rnn = nn.LSTM(8, 8)
+            self.bn = nn.BatchNorm2d(8)
 
         def forward(self, x):
-            return self.rnn(x)
+            return self.bn(x)
 
     net = TinyNet()
-    with pytest.raises(ValueError, match="se esperaba nn.Linear o nn.Conv2d"):
-        apply_lora_manual(net, target_modules=["rnn"], r=8)
+    with pytest.raises(ValueError, match="se esperaba nn.Linear, nn.Conv2d o nn.LSTM"):
+        apply_lora_manual(net, target_modules=["bn"], r=8)
 
 
 def test_lora_state_dict_extrae_solo_pesos_lora():
@@ -262,3 +262,188 @@ def test_lora_state_dict_extrae_solo_pesos_lora():
     # Ninguna corresponde a la capa original.
     for k in state:
         assert "original" not in k, f"Clave de original aparece en state: {k}"
+
+
+def test_lora_lstm_cell_init_iguala_al_lstm_cell_original():
+    """En step 0 (B=ceros), LoraLSTMCell debe producir EXACTAMENTE el mismo
+    output que un nn.LSTMCell estándar inicializado con los mismos pesos.
+    Validamos las dos salidas (h y c).
+    """
+    import torch
+    import torch.nn as nn
+    from unravel.lora_manual import LoraLSTMCell
+
+    torch.manual_seed(42)
+    input_size, hidden_size = 5, 8
+
+    # Cell de referencia.
+    cell = nn.LSTMCell(input_size, hidden_size)
+
+    # LoraLSTMCell con los mismos pesos.
+    lora_cell = LoraLSTMCell(
+        weight_ih=cell.weight_ih,
+        weight_hh=cell.weight_hh,
+        bias_ih=cell.bias_ih,
+        bias_hh=cell.bias_hh,
+        r=4, alpha=8,
+    )
+
+    batch = 3
+    x = torch.randn(batch, input_size)
+    h0 = torch.randn(batch, hidden_size)
+    c0 = torch.randn(batch, hidden_size)
+
+    h_orig, c_orig = cell(x, (h0, c0))
+    h_lora, c_lora = lora_cell(x, (h0, c0))
+
+    assert torch.allclose(h_orig, h_lora, atol=1e-6), (
+        f"h difiere — max abs diff = {(h_orig - h_lora).abs().max().item()}"
+    )
+    assert torch.allclose(c_orig, c_lora, atol=1e-6), (
+        f"c difiere — max abs diff = {(c_orig - c_lora).abs().max().item()}"
+    )
+
+
+def test_lora_lstm_cell_pesos_originales_no_entrenan():
+    """Los buffers (weight_ih, weight_hh, bias_ih, bias_hh) NO deben aparecer
+    como entrenables. Solo las matrices LoRA (lora_*_A, lora_*_B) entrenan.
+    """
+    import torch
+    import torch.nn as nn
+    from unravel.lora_manual import LoraLSTMCell
+
+    cell = nn.LSTMCell(5, 8)
+    lora_cell = LoraLSTMCell(
+        cell.weight_ih, cell.weight_hh, cell.bias_ih, cell.bias_hh,
+        r=4, alpha=8,
+    )
+
+    # Por construcción, los pesos del original están como buffers, no como params.
+    # Lo único entrenable son los lora_*.
+    trainable_names = {
+        n for n, p in lora_cell.named_parameters() if p.requires_grad
+    }
+    expected = {
+        "lora_ih_A.weight", "lora_ih_B.weight",
+        "lora_hh_A.weight", "lora_hh_B.weight",
+    }
+    assert trainable_names == expected, (
+        f"Esperaba entrenables {expected}, pero hay {trainable_names}"
+    )
+
+
+def test_lora_lstm_cell_cantidad_de_parametros_entrenables():
+    """Cantidad esperada: r·(input + 9·hidden) por celda.
+
+    Para input=5, hidden=8, r=4:
+        lora_ih_A: 4 × 5 = 20
+        lora_ih_B: 4·8 × 4 = 128
+        lora_hh_A: 4 × 8 = 32
+        lora_hh_B: 4·8 × 4 = 128
+        Total: 308 = 4·(5 + 9·8)
+    """
+    import torch
+    import torch.nn as nn
+    from unravel.lora_manual import LoraLSTMCell
+
+    cell = nn.LSTMCell(5, 8)
+    lora_cell = LoraLSTMCell(
+        cell.weight_ih, cell.weight_hh, cell.bias_ih, cell.bias_hh,
+        r=4, alpha=8,
+    )
+
+    trainable = sum(p.numel() for p in lora_cell.parameters() if p.requires_grad)
+    expected = 4 * (5 + 9 * 8)  # = 308
+    assert trainable == expected, (
+        f"Esperaba {expected} entrenables, pero hay {trainable}"
+    )
+
+
+def test_lora_lstm_init_iguala_al_lstm_original():
+    """En step 0 (B=ceros), LoraLSTM debe producir el mismo output, h_n y c_n
+    que el nn.LSTM original con los mismos pesos. Validamos los tres tensores.
+    Tolerancia atol=1e-5 por diferencias de orden de operaciones (cuDNN vs Python).
+    """
+    import torch
+    import torch.nn as nn
+    from unravel.lora_manual import LoraLSTM
+
+    torch.manual_seed(42)
+    original = nn.LSTM(
+        input_size=4, hidden_size=8, num_layers=2,
+        bidirectional=True, batch_first=False, dropout=0.0,
+    )
+    original.eval()
+
+    lora_lstm = LoraLSTM(original, r=4, alpha=8)
+    lora_lstm.eval()
+
+    seq_len, batch, input_size = 5, 3, 4
+    x = torch.randn(seq_len, batch, input_size)
+
+    y_orig, (h_orig, c_orig) = original(x)
+    y_lora, (h_lora, c_lora) = lora_lstm(x)
+
+    assert torch.allclose(y_orig, y_lora, atol=1e-5), (
+        f"output difiere — max diff = {(y_orig - y_lora).abs().max().item()}"
+    )
+    assert torch.allclose(h_orig, h_lora, atol=1e-5), "h_n difiere"
+    assert torch.allclose(c_orig, c_lora, atol=1e-5), "c_n difiere"
+
+
+def test_lora_lstm_pesos_originales_no_entrenan():
+    """Solo los pesos LoRA (lora_*) deben aparecer como entrenables."""
+    import torch
+    import torch.nn as nn
+    from unravel.lora_manual import LoraLSTM
+
+    original = nn.LSTM(4, 8, num_layers=2, bidirectional=True)
+    lora_lstm = LoraLSTM(original, r=4, alpha=8)
+
+    for name, p in lora_lstm.named_parameters():
+        if p.requires_grad:
+            assert "lora_" in name, f"Parámetro inesperadamente entrenable: {name}"
+
+
+def test_lora_lstm_cantidad_de_parametros_entrenables():
+    """Para LoraLSTM(input=4, hidden=8, num_layers=2, bidirectional) con r=4:
+
+    Cada celda LoraLSTMCell tiene r·(input_per_layer_dir + 9·hidden) entrenables.
+    - Capa 0, dir fw: input=4 → 4·(4+72) = 304.
+    - Capa 0, dir bw: idem 304.
+    - Capa 1, dir fw: input=2·hidden=16 → 4·(16+72) = 352.
+    - Capa 1, dir bw: idem 352.
+    Total: 2·304 + 2·352 = 1312.
+    """
+    import torch
+    import torch.nn as nn
+    from unravel.lora_manual import LoraLSTM
+
+    original = nn.LSTM(4, 8, num_layers=2, bidirectional=True)
+    lora_lstm = LoraLSTM(original, r=4, alpha=8)
+
+    trainable = sum(p.numel() for p in lora_lstm.parameters() if p.requires_grad)
+    expected = 2 * 304 + 2 * 352  # = 1312
+    assert trainable == expected, (
+        f"Esperaba {expected} entrenables, pero hay {trainable}"
+    )
+
+
+def test_apply_lora_manual_sobre_htrnet_con_lstm():
+    """Con target_modules incluyendo top.rec (el LSTM), apply_lora_manual debe
+    reemplazarlo con LoraLSTM. El % entrenable debe ser bastante mayor que con
+    solo las dos cabezas (que daban 0.16%) — esperamos > 1%.
+    """
+    from unravel.htr_model import HTRNet, default_arch_cfg
+    from unravel.lora_manual import LoraLSTM, apply_lora_manual
+
+    nclasses = 80
+    net = HTRNet(default_arch_cfg(), nclasses)
+    targets = ["top.fnl.1", "top.cnn.1", "top.rec"]
+    net, stats = apply_lora_manual(net, target_modules=targets, r=8, alpha=16)
+
+    assert isinstance(net.top.rec, LoraLSTM)
+
+    assert stats["percent_trainable"] > 1.0, (
+        f"Esperaba >1% entrenable con LSTM tocado, hay {stats['percent_trainable']:.2f}%"
+    )
