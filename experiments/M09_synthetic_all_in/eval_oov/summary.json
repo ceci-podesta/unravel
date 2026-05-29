@@ -1,0 +1,152 @@
+{
+  "config": {
+    "target_modules": [
+      "top.fnl.1",
+      "top.cnn.1",
+      "top.rec",
+      "features.features.cnv7.conv1",
+      "features.features.cnv7.conv2"
+    ],
+    "r": 16,
+    "alpha": 32,
+    "head": "both",
+    "center": false,
+    "checkpoint": "experiments/M09_synthetic_all_in/best_lora.pt"
+  },
+  "n_samples": 850,
+  "elapsed_seconds": 9.441362142562866,
+  "global": {
+    "n": 850,
+    "cer_micro": 0.006941176470588235,
+    "cer_macro": 0.015179814610610458,
+    "wer": 0.052941176470588235
+  },
+  "por_longitud": {
+    "2": {
+      "n": 50,
+      "cer_micro": 0.14,
+      "cer_macro": 0.14,
+      "wer": 0.22
+    },
+    "3": {
+      "n": 50,
+      "cer_micro": 0.04,
+      "cer_macro": 0.04,
+      "wer": 0.1
+    },
+    "4": {
+      "n": 50,
+      "cer_micro": 0.005,
+      "cer_macro": 0.005,
+      "wer": 0.02
+    },
+    "5": {
+      "n": 50,
+      "cer_micro": 0.016,
+      "cer_macro": 0.016,
+      "wer": 0.06
+    },
+    "6": {
+      "n": 50,
+      "cer_micro": 0.01,
+      "cer_macro": 0.01,
+      "wer": 0.06
+    },
+    "7": {
+      "n": 50,
+      "cer_micro": 0.005714285714285714,
+      "cer_macro": 0.005714285714285714,
+      "wer": 0.04
+    },
+    "8": {
+      "n": 50,
+      "cer_micro": 0.0,
+      "cer_macro": 0.0,
+      "wer": 0.0
+    },
+    "9": {
+      "n": 50,
+      "cer_micro": 0.0022222222222222222,
+      "cer_macro": 0.0022222222222222222,
+      "wer": 0.02
+    },
+    "10": {
+      "n": 50,
+      "cer_micro": 0.002,
+      "cer_macro": 0.002,
+      "wer": 0.02
+    },
+    "11": {
+      "n": 50,
+      "cer_micro": 0.0,
+      "cer_macro": 0.0,
+      "wer": 0.0
+    },
+    "12": {
+      "n": 50,
+      "cer_micro": 0.008333333333333333,
+      "cer_macro": 0.008333333333333333,
+      "wer": 0.08
+    },
+    "13": {
+      "n": 50,
+      "cer_micro": 0.003076923076923077,
+      "cer_macro": 0.003076923076923077,
+      "wer": 0.04
+    },
+    "14": {
+      "n": 50,
+      "cer_micro": 0.002857142857142857,
+      "cer_macro": 0.002857142857142857,
+      "wer": 0.04
+    },
+    "15": {
+      "n": 50,
+      "cer_micro": 0.008,
+      "cer_macro": 0.008,
+      "wer": 0.06
+    },
+    "16": {
+      "n": 50,
+      "cer_micro": 0.0125,
+      "cer_macro": 0.0125,
+      "wer": 0.1
+    },
+    "17": {
+      "n": 50,
+      "cer_micro": 0.002352941176470588,
+      "cer_macro": 0.002352941176470588,
+      "wer": 0.04
+    },
+    "18": {
+      "n": 50,
+      "cer_micro": 0.0,
+      "cer_macro": 0.0,
+      "wer": 0.0
+    }
+  },
+  "con_ntilde": {
+    "n": 0,
+    "cer_micro": NaN,
+    "cer_macro": NaN,
+    "wer": NaN
+  },
+  "sin_ntilde": {
+    "n": 850,
+    "cer_micro": 0.006941176470588235,
+    "cer_macro": 0.015179814610610458,
+    "wer": 0.052941176470588235
+  },
+  "con_acento": {
+    "n": 0,
+    "cer_micro": NaN,
+    "cer_macro": NaN,
+    "wer": NaN
+  },
+  "sin_acento": {
+    "n": 850,
+    "cer_micro": 0.006941176470588235,
+    "cer_macro": 0.015179814610610458,
+    "wer": 0.052941176470588235
+  }
+}

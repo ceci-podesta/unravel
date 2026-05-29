@@ -1,0 +1,2 @@
+epoch,train_loss,train_cer_micro,train_wer,val_loss,val_cer_micro,val_wer
+0,127.122624,0.943942,1.0,50.548665,0.938264,0.995053
