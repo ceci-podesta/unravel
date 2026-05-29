@@ -447,3 +447,140 @@ def test_apply_lora_manual_sobre_htrnet_con_lstm():
     assert stats["percent_trainable"] > 1.0, (
         f"Esperaba >1% entrenable con LSTM tocado, hay {stats['percent_trainable']:.2f}%"
     )
+
+
+def test_save_load_round_trip_preserva_outputs():
+    """Test crítico: el modelo en memoria justo antes de guardar y el modelo
+    cargado desde el checkpoint deben dar exactamente el mismo output.
+
+    Atrapa CUALQUIER estado del modelo que cambie durante training pero no
+    se persista en el checkpoint:
+      - Pesos LoRA no guardados (atraparía el bug del filtro lora_state_dict).
+      - BN running stats que se actualizan en train mode (atraparía el bug del BN).
+      - Cualquier otro buffer/parámetro futuro con el mismo problema.
+    """
+    import torch
+    import torch.nn as nn
+    from unravel.htr_model import HTRNet, default_arch_cfg
+    from unravel.lora_manual import apply_lora_manual, lora_state_dict
+
+    torch.manual_seed(0)
+    net = HTRNet(default_arch_cfg(), 80)
+    net, _ = apply_lora_manual(
+        net, target_modules=["top.fnl.1", "top.cnn.1", "top.rec"],
+        r=4, alpha=8, dropout=0.0,
+    )
+
+    # Aplicar el fix de BN: forzar eval mode para que los running stats no muten.
+    def freeze_bn(model):
+        for m in model.modules():
+            if isinstance(m, (nn.BatchNorm1d, nn.BatchNorm2d, nn.BatchNorm3d)):
+                m.eval()
+
+    freeze_bn(net)
+    net.train()
+    freeze_bn(net)  # train() deshace el eval, hay que reaplicar
+
+    # Mini-training: hacer algunos pasos para que los pesos LoRA cambien.
+    optimizer = torch.optim.Adam([p for p in net.parameters() if p.requires_grad], lr=1e-3)
+    x = torch.randn(2, 1, 64, 256)
+    for _ in range(3):
+        out_rnn, out_cnn = net(x)
+        loss = (out_rnn ** 2).mean() + (out_cnn ** 2).mean()
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+
+    # Output del modelo entrenado, en eval mode.
+    net.eval()
+    with torch.no_grad():
+        y_rnn_mem, y_cnn_mem = net(x)
+
+    # Guardar y cargar en otro modelo idéntico.
+    state = lora_state_dict(net)
+    torch.manual_seed(0)
+    net2 = HTRNet(default_arch_cfg(), 80)
+    net2, _ = apply_lora_manual(
+        net2, target_modules=["top.fnl.1", "top.cnn.1", "top.rec"],
+        r=4, alpha=8, dropout=0.0,
+    )
+    missing, unexpected = net2.load_state_dict(state, strict=False)
+    assert len(unexpected) == 0, f"Keys inesperadas en checkpoint: {unexpected}"
+
+    net2.eval()
+    with torch.no_grad():
+        y_rnn_loaded, y_cnn_loaded = net2(x)
+
+    # Los outputs deben ser idénticos.
+    diff_rnn = (y_rnn_mem - y_rnn_loaded).abs().max().item()
+    diff_cnn = (y_cnn_mem - y_cnn_loaded).abs().max().item()
+    assert torch.allclose(y_rnn_mem, y_rnn_loaded, atol=1e-5), (
+        f"Output RNN difiere entre memoria y checkpoint: max diff = {diff_rnn}. "
+        f"Indica que algo cambió durante training y no se persistió."
+    )
+    assert torch.allclose(y_cnn_mem, y_cnn_loaded, atol=1e-5), (
+        f"Output CNN difiere: max diff = {diff_cnn}"
+    )
+
+
+def test_bn_frozen_no_actualiza_running_stats():
+    """Si forzamos BN en eval mode, sus running stats deben quedar fijos
+    a pesar de los forwards en train mode."""
+    import torch
+    import torch.nn as nn
+    from unravel.htr_model import HTRNet, default_arch_cfg
+
+    net = HTRNet(default_arch_cfg(), 80)
+    target_bn = next(m for m in net.modules() if isinstance(m, nn.BatchNorm2d))
+    initial_running_mean = target_bn.running_mean.clone()
+
+    # Train mode + BN frozen.
+    net.train()
+    for m in net.modules():
+        if isinstance(m, (nn.BatchNorm1d, nn.BatchNorm2d, nn.BatchNorm3d)):
+            m.eval()
+
+    # Forwards (no necesitan backward, BN se actualiza solo).
+    x = torch.randn(4, 1, 64, 256)
+    with torch.no_grad():
+        for _ in range(20):
+            _ = net(x)
+
+    diff = (target_bn.running_mean - initial_running_mean).abs().max().item()
+    assert diff < 1e-6, (
+        f"running_mean cambió a pesar del freeze (max diff = {diff}). "
+        f"El fix de BN NO está funcionando."
+    )
+
+
+def test_loss_no_diverge_a_nan_o_inf():
+    """Mini-training que verifica que el loss se mantiene finito.
+    Atrapa learning rate explosivo o problemas numéricos."""
+    import torch
+    import torch.nn as nn
+    from unravel.htr_model import HTRNet, default_arch_cfg
+    from unravel.lora_manual import apply_lora_manual
+
+    torch.manual_seed(0)
+    net = HTRNet(default_arch_cfg(), 80)
+    net, _ = apply_lora_manual(
+        net, target_modules=["top.fnl.1", "top.cnn.1", "top.rec"],
+        r=4, alpha=8, dropout=0.0,
+    )
+    for m in net.modules():
+        if isinstance(m, (nn.BatchNorm1d, nn.BatchNorm2d, nn.BatchNorm3d)):
+            m.eval()
+    net.train()
+    for m in net.modules():
+        if isinstance(m, (nn.BatchNorm1d, nn.BatchNorm2d, nn.BatchNorm3d)):
+            m.eval()
+
+    optimizer = torch.optim.Adam([p for p in net.parameters() if p.requires_grad], lr=5e-4)
+    x = torch.randn(2, 1, 64, 256)
+    for step in range(5):
+        out_rnn, out_cnn = net(x)
+        loss = (out_rnn ** 2).mean() + (out_cnn ** 2).mean()
+        assert torch.isfinite(loss), f"Loss diverged a {loss.item()} en step {step}"
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()

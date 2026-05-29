@@ -1,0 +1,152 @@
+{
+  "config": {
+    "target_modules": [
+      "top.fnl.1",
+      "top.cnn.1",
+      "top.rec",
+      "features.features.cnv7.conv1",
+      "features.features.cnv7.conv2"
+    ],
+    "r": 16,
+    "alpha": 32,
+    "head": "both",
+    "center": false,
+    "checkpoint": "experiments/M07_lora_lstm_backbone_cnv7/best_lora.pt"
+  },
+  "n_samples": 850,
+  "elapsed_seconds": 9.853882312774658,
+  "global": {
+    "n": 850,
+    "cer_micro": 0.2896470588235294,
+    "cer_macro": 0.3026760962029128,
+    "wer": 0.7294117647058823
+  },
+  "por_longitud": {
+    "2": {
+      "n": 50,
+      "cer_micro": 0.37,
+      "cer_macro": 0.37,
+      "wer": 0.56
+    },
+    "3": {
+      "n": 50,
+      "cer_micro": 0.35333333333333333,
+      "cer_macro": 0.3533333333333333,
+      "wer": 0.66
+    },
+    "4": {
+      "n": 50,
+      "cer_micro": 0.3,
+      "cer_macro": 0.3,
+      "wer": 0.66
+    },
+    "5": {
+      "n": 50,
+      "cer_micro": 0.324,
+      "cer_macro": 0.324,
+      "wer": 0.64
+    },
+    "6": {
+      "n": 50,
+      "cer_micro": 0.36,
+      "cer_macro": 0.36,
+      "wer": 0.7
+    },
+    "7": {
+      "n": 50,
+      "cer_micro": 0.38,
+      "cer_macro": 0.38,
+      "wer": 0.72
+    },
+    "8": {
+      "n": 50,
+      "cer_micro": 0.2825,
+      "cer_macro": 0.2825,
+      "wer": 0.7
+    },
+    "9": {
+      "n": 50,
+      "cer_micro": 0.24888888888888888,
+      "cer_macro": 0.24888888888888888,
+      "wer": 0.78
+    },
+    "10": {
+      "n": 50,
+      "cer_micro": 0.228,
+      "cer_macro": 0.228,
+      "wer": 0.74
+    },
+    "11": {
+      "n": 50,
+      "cer_micro": 0.28545454545454546,
+      "cer_macro": 0.28545454545454546,
+      "wer": 0.78
+    },
+    "12": {
+      "n": 50,
+      "cer_micro": 0.34833333333333333,
+      "cer_macro": 0.3483333333333334,
+      "wer": 0.82
+    },
+    "13": {
+      "n": 50,
+      "cer_micro": 0.2569230769230769,
+      "cer_macro": 0.2569230769230769,
+      "wer": 0.74
+    },
+    "14": {
+      "n": 50,
+      "cer_micro": 0.3,
+      "cer_macro": 0.3,
+      "wer": 0.74
+    },
+    "15": {
+      "n": 50,
+      "cer_micro": 0.31066666666666665,
+      "cer_macro": 0.31066666666666665,
+      "wer": 0.78
+    },
+    "16": {
+      "n": 50,
+      "cer_micro": 0.30125,
+      "cer_macro": 0.30125,
+      "wer": 0.78
+    },
+    "17": {
+      "n": 50,
+      "cer_micro": 0.25058823529411767,
+      "cer_macro": 0.25058823529411767,
+      "wer": 0.76
+    },
+    "18": {
+      "n": 50,
+      "cer_micro": 0.24555555555555555,
+      "cer_macro": 0.24555555555555553,
+      "wer": 0.84
+    }
+  },
+  "con_ntilde": {
+    "n": 0,
+    "cer_micro": NaN,
+    "cer_macro": NaN,
+    "wer": NaN
+  },
+  "sin_ntilde": {
+    "n": 850,
+    "cer_micro": 0.2896470588235294,
+    "cer_macro": 0.3026760962029128,
+    "wer": 0.7294117647058823
+  },
+  "con_acento": {
+    "n": 0,
+    "cer_micro": NaN,
+    "cer_macro": NaN,
+    "wer": NaN
+  },
+  "sin_acento": {
+    "n": 850,
+    "cer_micro": 0.2896470588235294,
+    "cer_macro": 0.3026760962029128,
+    "wer": 0.7294117647058823
+  }
+}

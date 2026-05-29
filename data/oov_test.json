@@ -1,0 +1,4284 @@
+{
+  "samples": [
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-nu-0.jpg",
+      "palabra": "nu",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ay-0.jpg",
+      "palabra": "ay",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ah-0.jpg",
+      "palabra": "ah",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pi-0.jpg",
+      "palabra": "pi",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-do-0.jpg",
+      "palabra": "do",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cu-0.jpg",
+      "palabra": "cu",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ch-0.jpg",
+      "palabra": "ch",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-be-0.jpg",
+      "palabra": "be",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ve-0.jpg",
+      "palabra": "ve",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ax-0.jpg",
+      "palabra": "ax",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-on-0.jpg",
+      "palabra": "on",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ta-0.jpg",
+      "palabra": "ta",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ju-0.jpg",
+      "palabra": "ju",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-as-0.jpg",
+      "palabra": "as",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mu-0.jpg",
+      "palabra": "mu",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-hi-0.jpg",
+      "palabra": "hi",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aj-0.jpg",
+      "palabra": "aj",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-xi-0.jpg",
+      "palabra": "xi",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pu-0.jpg",
+      "palabra": "pu",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ce-0.jpg",
+      "palabra": "ce",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-to-0.jpg",
+      "palabra": "to",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ji-0.jpg",
+      "palabra": "ji",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-na-0.jpg",
+      "palabra": "na",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-os-0.jpg",
+      "palabra": "os",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ka-0.jpg",
+      "palabra": "ka",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cd-0.jpg",
+      "palabra": "cd",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-re-0.jpg",
+      "palabra": "re",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ge-0.jpg",
+      "palabra": "ge",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-oc-0.jpg",
+      "palabra": "oc",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-in-0.jpg",
+      "palabra": "in",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-uh-0.jpg",
+      "palabra": "uh",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fu-0.jpg",
+      "palabra": "fu",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pe-0.jpg",
+      "palabra": "pe",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ad-0.jpg",
+      "palabra": "ad",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fo-0.jpg",
+      "palabra": "fo",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ja-0.jpg",
+      "palabra": "ja",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ro-0.jpg",
+      "palabra": "ro",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fe-0.jpg",
+      "palabra": "fe",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-oh-0.jpg",
+      "palabra": "oh",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-bu-0.jpg",
+      "palabra": "bu",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ti-0.jpg",
+      "palabra": "ti",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ar-0.jpg",
+      "palabra": "ar",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-so-0.jpg",
+      "palabra": "so",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-io-0.jpg",
+      "palabra": "io",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-am-0.jpg",
+      "palabra": "am",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ox-0.jpg",
+      "palabra": "ox",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ll-0.jpg",
+      "palabra": "ll",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ne-0.jpg",
+      "palabra": "ne",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-rh-0.jpg",
+      "palabra": "rh",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fi-0.jpg",
+      "palabra": "fi",
+      "longitud": 2
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-uva-0.jpg",
+      "palabra": "uva",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-gua-0.jpg",
+      "palabra": "gua",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aro-0.jpg",
+      "palabra": "aro",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-puf-0.jpg",
+      "palabra": "puf",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sud-0.jpg",
+      "palabra": "sud",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-che-0.jpg",
+      "palabra": "che",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-nin-0.jpg",
+      "palabra": "nin",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ble-0.jpg",
+      "palabra": "ble",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ten-0.jpg",
+      "palabra": "ten",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ita-0.jpg",
+      "palabra": "ita",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-yal-0.jpg",
+      "palabra": "yal",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-vip-0.jpg",
+      "palabra": "vip",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mue-0.jpg",
+      "palabra": "mue",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tui-0.jpg",
+      "palabra": "tui",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-eje-0.jpg",
+      "palabra": "eje",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ben-0.jpg",
+      "palabra": "ben",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-asa-0.jpg",
+      "palabra": "asa",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-feo-0.jpg",
+      "palabra": "feo",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ira-0.jpg",
+      "palabra": "ira",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fia-0.jpg",
+      "palabra": "fia",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cai-0.jpg",
+      "palabra": "cai",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-noe-0.jpg",
+      "palabra": "noe",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-huf-0.jpg",
+      "palabra": "huf",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pro-0.jpg",
+      "palabra": "pro",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-yod-0.jpg",
+      "palabra": "yod",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mur-0.jpg",
+      "palabra": "mur",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-dia-0.jpg",
+      "palabra": "dia",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-nea-0.jpg",
+      "palabra": "nea",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-miz-0.jpg",
+      "palabra": "miz",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ero-0.jpg",
+      "palabra": "ero",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-hao-0.jpg",
+      "palabra": "hao",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-zoo-0.jpg",
+      "palabra": "zoo",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-bes-0.jpg",
+      "palabra": "bes",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-uzo-0.jpg",
+      "palabra": "uzo",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-dna-0.jpg",
+      "palabra": "dna",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sub-0.jpg",
+      "palabra": "sub",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-gas-0.jpg",
+      "palabra": "gas",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pum-0.jpg",
+      "palabra": "pum",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-her-0.jpg",
+      "palabra": "her",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-zar-0.jpg",
+      "palabra": "zar",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tez-0.jpg",
+      "palabra": "tez",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-far-0.jpg",
+      "palabra": "far",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-lev-0.jpg",
+      "palabra": "lev",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ave-0.jpg",
+      "palabra": "ave",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fer-0.jpg",
+      "palabra": "fer",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-amo-0.jpg",
+      "palabra": "amo",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-kit-0.jpg",
+      "palabra": "kit",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ora-0.jpg",
+      "palabra": "ora",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-haz-0.jpg",
+      "palabra": "haz",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-bar-0.jpg",
+      "palabra": "bar",
+      "longitud": 3
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-dala-0.jpg",
+      "palabra": "dala",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pepa-0.jpg",
+      "palabra": "pepa",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tasi-0.jpg",
+      "palabra": "tasi",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-haca-0.jpg",
+      "palabra": "haca",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-data-0.jpg",
+      "palabra": "data",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ruca-0.jpg",
+      "palabra": "ruca",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-noca-0.jpg",
+      "palabra": "noca",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-lego-0.jpg",
+      "palabra": "lego",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-rock-0.jpg",
+      "palabra": "rock",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-miza-0.jpg",
+      "palabra": "miza",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cauz-0.jpg",
+      "palabra": "cauz",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fine-0.jpg",
+      "palabra": "fine",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-capi-0.jpg",
+      "palabra": "capi",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-eter-0.jpg",
+      "palabra": "eter",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tono-0.jpg",
+      "palabra": "tono",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-peer-0.jpg",
+      "palabra": "peer",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-oval-0.jpg",
+      "palabra": "oval",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fila-0.jpg",
+      "palabra": "fila",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tora-0.jpg",
+      "palabra": "tora",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pito-0.jpg",
+      "palabra": "pito",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-maco-0.jpg",
+      "palabra": "maco",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pita-0.jpg",
+      "palabra": "pita",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-leno-0.jpg",
+      "palabra": "leno",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-jese-0.jpg",
+      "palabra": "jese",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-dina-0.jpg",
+      "palabra": "dina",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-caos-0.jpg",
+      "palabra": "caos",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-nulo-0.jpg",
+      "palabra": "nulo",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-nepe-0.jpg",
+      "palabra": "nepe",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-beis-0.jpg",
+      "palabra": "beis",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-trun-0.jpg",
+      "palabra": "trun",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-apos-0.jpg",
+      "palabra": "apos",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-boom-0.jpg",
+      "palabra": "boom",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cena-0.jpg",
+      "palabra": "cena",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-rejo-0.jpg",
+      "palabra": "rejo",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-chef-0.jpg",
+      "palabra": "chef",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-vero-0.jpg",
+      "palabra": "vero",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-seor-0.jpg",
+      "palabra": "seor",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-lues-0.jpg",
+      "palabra": "lues",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-poyo-0.jpg",
+      "palabra": "poyo",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-asta-0.jpg",
+      "palabra": "asta",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-lady-0.jpg",
+      "palabra": "lady",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-kilo-0.jpg",
+      "palabra": "kilo",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-poya-0.jpg",
+      "palabra": "poya",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mora-0.jpg",
+      "palabra": "mora",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-orbe-0.jpg",
+      "palabra": "orbe",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-faja-0.jpg",
+      "palabra": "faja",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pate-0.jpg",
+      "palabra": "pate",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-afin-0.jpg",
+      "palabra": "afin",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-taza-0.jpg",
+      "palabra": "taza",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-bren-0.jpg",
+      "palabra": "bren",
+      "longitud": 4
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-uvada-0.jpg",
+      "palabra": "uvada",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-isleo-0.jpg",
+      "palabra": "isleo",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-morsa-0.jpg",
+      "palabra": "morsa",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cauje-0.jpg",
+      "palabra": "cauje",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-leton-0.jpg",
+      "palabra": "leton",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-recre-0.jpg",
+      "palabra": "recre",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cueca-0.jpg",
+      "palabra": "cueca",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-rubio-0.jpg",
+      "palabra": "rubio",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-acabo-0.jpg",
+      "palabra": "acabo",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ijada-0.jpg",
+      "palabra": "ijada",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tebeo-0.jpg",
+      "palabra": "tebeo",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-dosel-0.jpg",
+      "palabra": "dosel",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tilia-0.jpg",
+      "palabra": "tilia",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-carey-0.jpg",
+      "palabra": "carey",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-limon-0.jpg",
+      "palabra": "limon",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-farpa-0.jpg",
+      "palabra": "farpa",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-coyol-0.jpg",
+      "palabra": "coyol",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ostia-0.jpg",
+      "palabra": "ostia",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cumel-0.jpg",
+      "palabra": "cumel",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-valse-0.jpg",
+      "palabra": "valse",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-turco-0.jpg",
+      "palabra": "turco",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-abadi-0.jpg",
+      "palabra": "abadi",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-melis-0.jpg",
+      "palabra": "melis",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-surto-0.jpg",
+      "palabra": "surto",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aleja-0.jpg",
+      "palabra": "aleja",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cauri-0.jpg",
+      "palabra": "cauri",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-nuera-0.jpg",
+      "palabra": "nuera",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-lucro-0.jpg",
+      "palabra": "lucro",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-grosa-0.jpg",
+      "palabra": "grosa",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-baile-0.jpg",
+      "palabra": "baile",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-guaja-0.jpg",
+      "palabra": "guaja",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-zuiza-0.jpg",
+      "palabra": "zuiza",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-bolon-0.jpg",
+      "palabra": "bolon",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-brisa-0.jpg",
+      "palabra": "brisa",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sueco-0.jpg",
+      "palabra": "sueco",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-beodo-0.jpg",
+      "palabra": "beodo",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ulano-0.jpg",
+      "palabra": "ulano",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-chine-0.jpg",
+      "palabra": "chine",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-chope-0.jpg",
+      "palabra": "chope",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-silba-0.jpg",
+      "palabra": "silba",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-visor-0.jpg",
+      "palabra": "visor",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cuspa-0.jpg",
+      "palabra": "cuspa",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-india-0.jpg",
+      "palabra": "india",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tuera-0.jpg",
+      "palabra": "tuera",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-puyon-0.jpg",
+      "palabra": "puyon",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-folga-0.jpg",
+      "palabra": "folga",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-valon-0.jpg",
+      "palabra": "valon",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fecho-0.jpg",
+      "palabra": "fecho",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-macla-0.jpg",
+      "palabra": "macla",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pichi-0.jpg",
+      "palabra": "pichi",
+      "longitud": 5
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pitote-0.jpg",
+      "palabra": "pitote",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-solera-0.jpg",
+      "palabra": "solera",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tarusa-0.jpg",
+      "palabra": "tarusa",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cerita-0.jpg",
+      "palabra": "cerita",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-hondon-0.jpg",
+      "palabra": "hondon",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-genipa-0.jpg",
+      "palabra": "genipa",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-balayo-0.jpg",
+      "palabra": "balayo",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-onagro-0.jpg",
+      "palabra": "onagro",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-albani-0.jpg",
+      "palabra": "albani",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-gradar-0.jpg",
+      "palabra": "gradar",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ganzua-0.jpg",
+      "palabra": "ganzua",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-acosar-0.jpg",
+      "palabra": "acosar",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-belico-0.jpg",
+      "palabra": "belico",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-azanca-0.jpg",
+      "palabra": "azanca",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-gorguz-0.jpg",
+      "palabra": "gorguz",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-bardar-0.jpg",
+      "palabra": "bardar",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-amelia-0.jpg",
+      "palabra": "amelia",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ninear-0.jpg",
+      "palabra": "ninear",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-beleno-0.jpg",
+      "palabra": "beleno",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-guirre-0.jpg",
+      "palabra": "guirre",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-licaon-0.jpg",
+      "palabra": "licaon",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-velahi-0.jpg",
+      "palabra": "velahi",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fugada-0.jpg",
+      "palabra": "fugada",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-chullo-0.jpg",
+      "palabra": "chullo",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-trojel-0.jpg",
+      "palabra": "trojel",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-henrio-0.jpg",
+      "palabra": "henrio",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-trompo-0.jpg",
+      "palabra": "trompo",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-repaso-0.jpg",
+      "palabra": "repaso",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-espion-0.jpg",
+      "palabra": "espion",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cacteo-0.jpg",
+      "palabra": "cacteo",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-calazo-0.jpg",
+      "palabra": "calazo",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-serico-0.jpg",
+      "palabra": "serico",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pasoso-0.jpg",
+      "palabra": "pasoso",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-salino-0.jpg",
+      "palabra": "salino",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-rifeno-0.jpg",
+      "palabra": "rifeno",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-torzal-0.jpg",
+      "palabra": "torzal",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-atolon-0.jpg",
+      "palabra": "atolon",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-calivo-0.jpg",
+      "palabra": "calivo",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-azulon-0.jpg",
+      "palabra": "azulon",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-redoma-0.jpg",
+      "palabra": "redoma",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-opilar-0.jpg",
+      "palabra": "opilar",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-carlon-0.jpg",
+      "palabra": "carlon",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-hostal-0.jpg",
+      "palabra": "hostal",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-estelo-0.jpg",
+      "palabra": "estelo",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-espigo-0.jpg",
+      "palabra": "espigo",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tanino-0.jpg",
+      "palabra": "tanino",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-coccix-0.jpg",
+      "palabra": "coccix",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sagati-0.jpg",
+      "palabra": "sagati",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-enruna-0.jpg",
+      "palabra": "enruna",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-licito-0.jpg",
+      "palabra": "licito",
+      "longitud": 6
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-monacal-0.jpg",
+      "palabra": "monacal",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desloor-0.jpg",
+      "palabra": "desloor",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-arritar-0.jpg",
+      "palabra": "arritar",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mascado-0.jpg",
+      "palabra": "mascado",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pupitre-0.jpg",
+      "palabra": "pupitre",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-balante-0.jpg",
+      "palabra": "balante",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-amochar-0.jpg",
+      "palabra": "amochar",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tintero-0.jpg",
+      "palabra": "tintero",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-postrer-0.jpg",
+      "palabra": "postrer",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-adamado-0.jpg",
+      "palabra": "adamado",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aznacho-0.jpg",
+      "palabra": "aznacho",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cuquera-0.jpg",
+      "palabra": "cuquera",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-caudino-0.jpg",
+      "palabra": "caudino",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-lancera-0.jpg",
+      "palabra": "lancera",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ocarina-0.jpg",
+      "palabra": "ocarina",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-nordico-0.jpg",
+      "palabra": "nordico",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-concuna-0.jpg",
+      "palabra": "concuna",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-judiego-0.jpg",
+      "palabra": "judiego",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-antanon-0.jpg",
+      "palabra": "antanon",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-catapum-0.jpg",
+      "palabra": "catapum",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-huevero-0.jpg",
+      "palabra": "huevero",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-abismal-0.jpg",
+      "palabra": "abismal",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-interes-0.jpg",
+      "palabra": "interes",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-duramen-0.jpg",
+      "palabra": "duramen",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-milpear-0.jpg",
+      "palabra": "milpear",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-enrugar-0.jpg",
+      "palabra": "enrugar",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-loberia-0.jpg",
+      "palabra": "loberia",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-zacatal-0.jpg",
+      "palabra": "zacatal",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-rabillo-0.jpg",
+      "palabra": "rabillo",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tractar-0.jpg",
+      "palabra": "tractar",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-octuplo-0.jpg",
+      "palabra": "octuplo",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-caracoa-0.jpg",
+      "palabra": "caracoa",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-chivero-0.jpg",
+      "palabra": "chivero",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-escurar-0.jpg",
+      "palabra": "escurar",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-copilar-0.jpg",
+      "palabra": "copilar",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ansaron-0.jpg",
+      "palabra": "ansaron",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-reobrar-0.jpg",
+      "palabra": "reobrar",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-precito-0.jpg",
+      "palabra": "precito",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-apantle-0.jpg",
+      "palabra": "apantle",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-faccion-0.jpg",
+      "palabra": "faccion",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aniejar-0.jpg",
+      "palabra": "aniejar",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aminico-0.jpg",
+      "palabra": "aminico",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-respiro-0.jpg",
+      "palabra": "respiro",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-negrota-0.jpg",
+      "palabra": "negrota",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-papismo-0.jpg",
+      "palabra": "papismo",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-plaquin-0.jpg",
+      "palabra": "plaquin",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cariaco-0.jpg",
+      "palabra": "cariaco",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-angular-0.jpg",
+      "palabra": "angular",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pateada-0.jpg",
+      "palabra": "pateada",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-asnilla-0.jpg",
+      "palabra": "asnilla",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cedroleo-0.jpg",
+      "palabra": "cedroleo",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-anteayer-0.jpg",
+      "palabra": "anteayer",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-picoleta-0.jpg",
+      "palabra": "picoleta",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-anorexia-0.jpg",
+      "palabra": "anorexia",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-rustical-0.jpg",
+      "palabra": "rustical",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-consonar-0.jpg",
+      "palabra": "consonar",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-gazapina-0.jpg",
+      "palabra": "gazapina",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-batayola-0.jpg",
+      "palabra": "batayola",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-papalote-0.jpg",
+      "palabra": "papalote",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cosicosa-0.jpg",
+      "palabra": "cosicosa",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-patojera-0.jpg",
+      "palabra": "patojera",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pichagua-0.jpg",
+      "palabra": "pichagua",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-alcaucil-0.jpg",
+      "palabra": "alcaucil",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-probable-0.jpg",
+      "palabra": "probable",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-argolico-0.jpg",
+      "palabra": "argolico",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-guariman-0.jpg",
+      "palabra": "guariman",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-repintar-0.jpg",
+      "palabra": "repintar",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-peladera-0.jpg",
+      "palabra": "peladera",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-palmenta-0.jpg",
+      "palabra": "palmenta",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-minambre-0.jpg",
+      "palabra": "minambre",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-encallar-0.jpg",
+      "palabra": "encallar",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-debajero-0.jpg",
+      "palabra": "debajero",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-chistera-0.jpg",
+      "palabra": "chistera",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-roblonar-0.jpg",
+      "palabra": "roblonar",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tagarino-0.jpg",
+      "palabra": "tagarino",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-empolvar-0.jpg",
+      "palabra": "empolvar",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-copayero-0.jpg",
+      "palabra": "copayero",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-delinear-0.jpg",
+      "palabra": "delinear",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-gafarron-0.jpg",
+      "palabra": "gafarron",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-bochista-0.jpg",
+      "palabra": "bochista",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-romanina-0.jpg",
+      "palabra": "romanina",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-redituar-0.jpg",
+      "palabra": "redituar",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-doquiera-0.jpg",
+      "palabra": "doquiera",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ironizar-0.jpg",
+      "palabra": "ironizar",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-encalada-0.jpg",
+      "palabra": "encalada",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tripudio-0.jpg",
+      "palabra": "tripudio",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aparente-0.jpg",
+      "palabra": "aparente",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-acefalia-0.jpg",
+      "palabra": "acefalia",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-isotermo-0.jpg",
+      "palabra": "isotermo",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-proficuo-0.jpg",
+      "palabra": "proficuo",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pajarita-0.jpg",
+      "palabra": "pajarita",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-atrilera-0.jpg",
+      "palabra": "atrilera",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-apelable-0.jpg",
+      "palabra": "apelable",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-munifico-0.jpg",
+      "palabra": "munifico",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cisterna-0.jpg",
+      "palabra": "cisterna",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mareador-0.jpg",
+      "palabra": "mareador",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-deleitar-0.jpg",
+      "palabra": "deleitar",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-bolinero-0.jpg",
+      "palabra": "bolinero",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-esguince-0.jpg",
+      "palabra": "esguince",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-antefoso-0.jpg",
+      "palabra": "antefoso",
+      "longitud": 8
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-decalitro-0.jpg",
+      "palabra": "decalitro",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fijodalgo-0.jpg",
+      "palabra": "fijodalgo",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-discrasia-0.jpg",
+      "palabra": "discrasia",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-carameleo-0.jpg",
+      "palabra": "carameleo",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-indecente-0.jpg",
+      "palabra": "indecente",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pajuerano-0.jpg",
+      "palabra": "pajuerano",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-torpedero-0.jpg",
+      "palabra": "torpedero",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-empachoso-0.jpg",
+      "palabra": "empachoso",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-rebajador-0.jpg",
+      "palabra": "rebajador",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sazonador-0.jpg",
+      "palabra": "sazonador",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-normativo-0.jpg",
+      "palabra": "normativo",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-acaudalar-0.jpg",
+      "palabra": "acaudalar",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sobrecama-0.jpg",
+      "palabra": "sobrecama",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pasmarote-0.jpg",
+      "palabra": "pasmarote",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-embebedor-0.jpg",
+      "palabra": "embebedor",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-silvatico-0.jpg",
+      "palabra": "silvatico",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-avillanar-0.jpg",
+      "palabra": "avillanar",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-burbujear-0.jpg",
+      "palabra": "burbujear",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desfundar-0.jpg",
+      "palabra": "desfundar",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-bastonear-0.jpg",
+      "palabra": "bastonear",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-baladista-0.jpg",
+      "palabra": "baladista",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-zaparrada-0.jpg",
+      "palabra": "zaparrada",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pasacalle-0.jpg",
+      "palabra": "pasacalle",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-capellada-0.jpg",
+      "palabra": "capellada",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desprivar-0.jpg",
+      "palabra": "desprivar",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-dignacion-0.jpg",
+      "palabra": "dignacion",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-quinolear-0.jpg",
+      "palabra": "quinolear",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-compasear-0.jpg",
+      "palabra": "compasear",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-truhanear-0.jpg",
+      "palabra": "truhanear",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-especioso-0.jpg",
+      "palabra": "especioso",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-coercible-0.jpg",
+      "palabra": "coercible",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tarragona-0.jpg",
+      "palabra": "tarragona",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-reverente-0.jpg",
+      "palabra": "reverente",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desflemar-0.jpg",
+      "palabra": "desflemar",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mimodrama-0.jpg",
+      "palabra": "mimodrama",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mariscala-0.jpg",
+      "palabra": "mariscala",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-depurador-0.jpg",
+      "palabra": "depurador",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-altimetro-0.jpg",
+      "palabra": "altimetro",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-asquiento-0.jpg",
+      "palabra": "asquiento",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-reversion-0.jpg",
+      "palabra": "reversion",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-hojaldrar-0.jpg",
+      "palabra": "hojaldrar",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-deteccion-0.jpg",
+      "palabra": "deteccion",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aljonjera-0.jpg",
+      "palabra": "aljonjera",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-abordable-0.jpg",
+      "palabra": "abordable",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-escamotar-0.jpg",
+      "palabra": "escamotar",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-brasileno-0.jpg",
+      "palabra": "brasileno",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-roblonado-0.jpg",
+      "palabra": "roblonado",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desdonado-0.jpg",
+      "palabra": "desdonado",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-caribello-0.jpg",
+      "palabra": "caribello",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-zambullon-0.jpg",
+      "palabra": "zambullon",
+      "longitud": 9
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-optometria-0.jpg",
+      "palabra": "optometria",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sonsacador-0.jpg",
+      "palabra": "sonsacador",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-motivacion-0.jpg",
+      "palabra": "motivacion",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tafiletear-0.jpg",
+      "palabra": "tafiletear",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-acomodador-0.jpg",
+      "palabra": "acomodador",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-capitanear-0.jpg",
+      "palabra": "capitanear",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-auxiliador-0.jpg",
+      "palabra": "auxiliador",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-colchoneta-0.jpg",
+      "palabra": "colchoneta",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sobradillo-0.jpg",
+      "palabra": "sobradillo",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-alumbrante-0.jpg",
+      "palabra": "alumbrante",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-inmolacion-0.jpg",
+      "palabra": "inmolacion",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-trasmigrar-0.jpg",
+      "palabra": "trasmigrar",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sortilegio-0.jpg",
+      "palabra": "sortilegio",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cognominar-0.jpg",
+      "palabra": "cognominar",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-muscardino-0.jpg",
+      "palabra": "muscardino",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cencerrado-0.jpg",
+      "palabra": "cencerrado",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-analizable-0.jpg",
+      "palabra": "analizable",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-febrerillo-0.jpg",
+      "palabra": "febrerillo",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-inexorable-0.jpg",
+      "palabra": "inexorable",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-amolletado-0.jpg",
+      "palabra": "amolletado",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-impudencia-0.jpg",
+      "palabra": "impudencia",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desenyugar-0.jpg",
+      "palabra": "desenyugar",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-enajenable-0.jpg",
+      "palabra": "enajenable",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-calcedonio-0.jpg",
+      "palabra": "calcedonio",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-iglesiario-0.jpg",
+      "palabra": "iglesiario",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tabaquismo-0.jpg",
+      "palabra": "tabaquismo",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-marquesota-0.jpg",
+      "palabra": "marquesota",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-complicado-0.jpg",
+      "palabra": "complicado",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-dulzainero-0.jpg",
+      "palabra": "dulzainero",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-conmutable-0.jpg",
+      "palabra": "conmutable",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cramponado-0.jpg",
+      "palabra": "cramponado",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-melindrero-0.jpg",
+      "palabra": "melindrero",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-albarrania-0.jpg",
+      "palabra": "albarrania",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cronicismo-0.jpg",
+      "palabra": "cronicismo",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-gramallera-0.jpg",
+      "palabra": "gramallera",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-megalomano-0.jpg",
+      "palabra": "megalomano",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-emplumajar-0.jpg",
+      "palabra": "emplumajar",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ensordecer-0.jpg",
+      "palabra": "ensordecer",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-conductero-0.jpg",
+      "palabra": "conductero",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-canamonado-0.jpg",
+      "palabra": "canamonado",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-lacticinio-0.jpg",
+      "palabra": "lacticinio",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-amedrantar-0.jpg",
+      "palabra": "amedrantar",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-piquetilla-0.jpg",
+      "palabra": "piquetilla",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desudacion-0.jpg",
+      "palabra": "desudacion",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desarmable-0.jpg",
+      "palabra": "desarmable",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-peluqueada-0.jpg",
+      "palabra": "peluqueada",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-holografia-0.jpg",
+      "palabra": "holografia",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-facilmente-0.jpg",
+      "palabra": "facilmente",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-digestible-0.jpg",
+      "palabra": "digestible",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desventaja-0.jpg",
+      "palabra": "desventaja",
+      "longitud": 10
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-afectividad-0.jpg",
+      "palabra": "afectividad",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-polvoriento-0.jpg",
+      "palabra": "polvoriento",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-compraventa-0.jpg",
+      "palabra": "compraventa",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-escurridizo-0.jpg",
+      "palabra": "escurridizo",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-dispensario-0.jpg",
+      "palabra": "dispensario",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desconvidar-0.jpg",
+      "palabra": "desconvidar",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aparcionero-0.jpg",
+      "palabra": "aparcionero",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-subtenencia-0.jpg",
+      "palabra": "subtenencia",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-descortesia-0.jpg",
+      "palabra": "descortesia",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-encabestrar-0.jpg",
+      "palabra": "encabestrar",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-perfiladura-0.jpg",
+      "palabra": "perfiladura",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ineducacion-0.jpg",
+      "palabra": "ineducacion",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-esmeraldero-0.jpg",
+      "palabra": "esmeraldero",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-profundidad-0.jpg",
+      "palabra": "profundidad",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-irresoluble-0.jpg",
+      "palabra": "irresoluble",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-doblamiento-0.jpg",
+      "palabra": "doblamiento",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-agravatorio-0.jpg",
+      "palabra": "agravatorio",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-blandamente-0.jpg",
+      "palabra": "blandamente",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desabrigado-0.jpg",
+      "palabra": "desabrigado",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-clasificado-0.jpg",
+      "palabra": "clasificado",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mensuracion-0.jpg",
+      "palabra": "mensuracion",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desapiadado-0.jpg",
+      "palabra": "desapiadado",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-alcoholismo-0.jpg",
+      "palabra": "alcoholismo",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-begastrense-0.jpg",
+      "palabra": "begastrense",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mosaiquista-0.jpg",
+      "palabra": "mosaiquista",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fermentable-0.jpg",
+      "palabra": "fermentable",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-embrutecido-0.jpg",
+      "palabra": "embrutecido",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-revendedera-0.jpg",
+      "palabra": "revendedera",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tauromaquia-0.jpg",
+      "palabra": "tauromaquia",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desquijerar-0.jpg",
+      "palabra": "desquijerar",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-filderretor-0.jpg",
+      "palabra": "filderretor",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-nitroglicol-0.jpg",
+      "palabra": "nitroglicol",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-infamatorio-0.jpg",
+      "palabra": "infamatorio",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-blanqueador-0.jpg",
+      "palabra": "blanqueador",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-epistolario-0.jpg",
+      "palabra": "epistolario",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-medicinante-0.jpg",
+      "palabra": "medicinante",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-compatricio-0.jpg",
+      "palabra": "compatricio",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-demeritorio-0.jpg",
+      "palabra": "demeritorio",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-almidoneria-0.jpg",
+      "palabra": "almidoneria",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-reenganchar-0.jpg",
+      "palabra": "reenganchar",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-filarmonico-0.jpg",
+      "palabra": "filarmonico",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-abiogenesis-0.jpg",
+      "palabra": "abiogenesis",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-inocultable-0.jpg",
+      "palabra": "inocultable",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-trascendido-0.jpg",
+      "palabra": "trascendido",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-jacarandoso-0.jpg",
+      "palabra": "jacarandoso",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-provocacion-0.jpg",
+      "palabra": "provocacion",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-reprografia-0.jpg",
+      "palabra": "reprografia",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sanlucareno-0.jpg",
+      "palabra": "sanlucareno",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-salificable-0.jpg",
+      "palabra": "salificable",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-preformista-0.jpg",
+      "palabra": "preformista",
+      "longitud": 11
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desproposito-0.jpg",
+      "palabra": "desproposito",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-localizacion-0.jpg",
+      "palabra": "localizacion",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-prefilatelia-0.jpg",
+      "palabra": "prefilatelia",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-benignamente-0.jpg",
+      "palabra": "benignamente",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-indeliberado-0.jpg",
+      "palabra": "indeliberado",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-homogeneidad-0.jpg",
+      "palabra": "homogeneidad",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-consistencia-0.jpg",
+      "palabra": "consistencia",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-guardasellos-0.jpg",
+      "palabra": "guardasellos",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-temporalizar-0.jpg",
+      "palabra": "temporalizar",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-hiperbolizar-0.jpg",
+      "palabra": "hiperbolizar",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-parafernalia-0.jpg",
+      "palabra": "parafernalia",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-inconcebible-0.jpg",
+      "palabra": "inconcebible",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-orientalista-0.jpg",
+      "palabra": "orientalista",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-glorificador-0.jpg",
+      "palabra": "glorificador",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-contaminante-0.jpg",
+      "palabra": "contaminante",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desorganizar-0.jpg",
+      "palabra": "desorganizar",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pincarrascal-0.jpg",
+      "palabra": "pincarrascal",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-melocotonero-0.jpg",
+      "palabra": "melocotonero",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-descompensar-0.jpg",
+      "palabra": "descompensar",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-guatemalteco-0.jpg",
+      "palabra": "guatemalteco",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-pancreatitis-0.jpg",
+      "palabra": "pancreatitis",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-abarramiento-0.jpg",
+      "palabra": "abarramiento",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-helmintiasis-0.jpg",
+      "palabra": "helmintiasis",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fotomecanico-0.jpg",
+      "palabra": "fotomecanico",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-divertimento-0.jpg",
+      "palabra": "divertimento",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-precognicion-0.jpg",
+      "palabra": "precognicion",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-inaguantable-0.jpg",
+      "palabra": "inaguantable",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-renglonadura-0.jpg",
+      "palabra": "renglonadura",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-prostitucion-0.jpg",
+      "palabra": "prostitucion",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-protagonizar-0.jpg",
+      "palabra": "protagonizar",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ectoparasito-0.jpg",
+      "palabra": "ectoparasito",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tiranizacion-0.jpg",
+      "palabra": "tiranizacion",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-romanizacion-0.jpg",
+      "palabra": "romanizacion",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-descabestrar-0.jpg",
+      "palabra": "descabestrar",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-capelardente-0.jpg",
+      "palabra": "capelardente",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-florentisimo-0.jpg",
+      "palabra": "florentisimo",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-translucirse-0.jpg",
+      "palabra": "translucirse",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-infibulacion-0.jpg",
+      "palabra": "infibulacion",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-centunvirato-0.jpg",
+      "palabra": "centunvirato",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-engorgoritar-0.jpg",
+      "palabra": "engorgoritar",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-hipertrofico-0.jpg",
+      "palabra": "hipertrofico",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-emprestillon-0.jpg",
+      "palabra": "emprestillon",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-destorpadura-0.jpg",
+      "palabra": "destorpadura",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cuadrimestre-0.jpg",
+      "palabra": "cuadrimestre",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-alguaciladgo-0.jpg",
+      "palabra": "alguaciladgo",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aproximacion-0.jpg",
+      "palabra": "aproximacion",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-entretejedor-0.jpg",
+      "palabra": "entretejedor",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sacamantecas-0.jpg",
+      "palabra": "sacamantecas",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-blanquimento-0.jpg",
+      "palabra": "blanquimento",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-recomendable-0.jpg",
+      "palabra": "recomendable",
+      "longitud": 12
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-interinamente-0.jpg",
+      "palabra": "interinamente",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-transportador-0.jpg",
+      "palabra": "transportador",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-reunificacion-0.jpg",
+      "palabra": "reunificacion",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desarticulado-0.jpg",
+      "palabra": "desarticulado",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-incomodamente-0.jpg",
+      "palabra": "incomodamente",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-paternalmente-0.jpg",
+      "palabra": "paternalmente",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-inextinguible-0.jpg",
+      "palabra": "inextinguible",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-dialectalismo-0.jpg",
+      "palabra": "dialectalismo",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-contertuliano-0.jpg",
+      "palabra": "contertuliano",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-zarzaparrilla-0.jpg",
+      "palabra": "zarzaparrilla",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-abuhardillado-0.jpg",
+      "palabra": "abuhardillado",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-chacarrachaca-0.jpg",
+      "palabra": "chacarrachaca",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-irreprensible-0.jpg",
+      "palabra": "irreprensible",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desestimacion-0.jpg",
+      "palabra": "desestimacion",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-decendimiento-0.jpg",
+      "palabra": "decendimiento",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-predeterminar-0.jpg",
+      "palabra": "predeterminar",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-monstruosidad-0.jpg",
+      "palabra": "monstruosidad",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-antihigienico-0.jpg",
+      "palabra": "antihigienico",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-reestructurar-0.jpg",
+      "palabra": "reestructurar",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-discriminador-0.jpg",
+      "palabra": "discriminador",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-comandamiento-0.jpg",
+      "palabra": "comandamiento",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-meteorizacion-0.jpg",
+      "palabra": "meteorizacion",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-confederacion-0.jpg",
+      "palabra": "confederacion",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-morfosintaxis-0.jpg",
+      "palabra": "morfosintaxis",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-propagandismo-0.jpg",
+      "palabra": "propagandismo",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-refractometro-0.jpg",
+      "palabra": "refractometro",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-soberanamente-0.jpg",
+      "palabra": "soberanamente",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-eutrofizacion-0.jpg",
+      "palabra": "eutrofizacion",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-malaconsejado-0.jpg",
+      "palabra": "malaconsejado",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-supranacional-0.jpg",
+      "palabra": "supranacional",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-placiblemente-0.jpg",
+      "palabra": "placiblemente",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-irritabilidad-0.jpg",
+      "palabra": "irritabilidad",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-razonadamente-0.jpg",
+      "palabra": "razonadamente",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mantequillero-0.jpg",
+      "palabra": "mantequillero",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-contraventana-0.jpg",
+      "palabra": "contraventana",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-numericamente-0.jpg",
+      "palabra": "numericamente",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-mecanografiar-0.jpg",
+      "palabra": "mecanografiar",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-electrotipico-0.jpg",
+      "palabra": "electrotipico",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-dinamometrico-0.jpg",
+      "palabra": "dinamometrico",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-triunfalmente-0.jpg",
+      "palabra": "triunfalmente",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-enfrenamiento-0.jpg",
+      "palabra": "enfrenamiento",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-preponderante-0.jpg",
+      "palabra": "preponderante",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-palatabilidad-0.jpg",
+      "palabra": "palatabilidad",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-transiberiano-0.jpg",
+      "palabra": "transiberiano",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desreputacion-0.jpg",
+      "palabra": "desreputacion",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-encubrimiento-0.jpg",
+      "palabra": "encubrimiento",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-maestrescolia-0.jpg",
+      "palabra": "maestrescolia",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-automovilista-0.jpg",
+      "palabra": "automovilista",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-entregamiento-0.jpg",
+      "palabra": "entregamiento",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-despeluznante-0.jpg",
+      "palabra": "despeluznante",
+      "longitud": 13
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desmilitarizar-0.jpg",
+      "palabra": "desmilitarizar",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-encomendamento-0.jpg",
+      "palabra": "encomendamento",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-embelesamiento-0.jpg",
+      "palabra": "embelesamiento",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-jerosolimitano-0.jpg",
+      "palabra": "jerosolimitano",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-arrequesonarse-0.jpg",
+      "palabra": "arrequesonarse",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-compatibilidad-0.jpg",
+      "palabra": "compatibilidad",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-confeccionista-0.jpg",
+      "palabra": "confeccionista",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-descendimiento-0.jpg",
+      "palabra": "descendimiento",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-espiritualismo-0.jpg",
+      "palabra": "espiritualismo",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-semiplenamente-0.jpg",
+      "palabra": "semiplenamente",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-confortamiento-0.jpg",
+      "palabra": "confortamiento",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sobreimpresion-0.jpg",
+      "palabra": "sobreimpresion",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desalojamiento-0.jpg",
+      "palabra": "desalojamiento",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-apalancamiento-0.jpg",
+      "palabra": "apalancamiento",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fervientemente-0.jpg",
+      "palabra": "fervientemente",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-extralimitarse-0.jpg",
+      "palabra": "extralimitarse",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-encarecimiento-0.jpg",
+      "palabra": "encarecimiento",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-kinesiterapico-0.jpg",
+      "palabra": "kinesiterapico",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-improvidamente-0.jpg",
+      "palabra": "improvidamente",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fibrocartilago-0.jpg",
+      "palabra": "fibrocartilago",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-apabullamiento-0.jpg",
+      "palabra": "apabullamiento",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-dermoprotector-0.jpg",
+      "palabra": "dermoprotector",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fitosociologia-0.jpg",
+      "palabra": "fitosociologia",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-estereorradian-0.jpg",
+      "palabra": "estereorradian",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-nescientemente-0.jpg",
+      "palabra": "nescientemente",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sensuntepecano-0.jpg",
+      "palabra": "sensuntepecano",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aerofotografia-0.jpg",
+      "palabra": "aerofotografia",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-vigilantemente-0.jpg",
+      "palabra": "vigilantemente",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-miserablemente-0.jpg",
+      "palabra": "miserablemente",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-espectrometria-0.jpg",
+      "palabra": "espectrometria",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-inconveniencia-0.jpg",
+      "palabra": "inconveniencia",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-academicamente-0.jpg",
+      "palabra": "academicamente",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-enrarecimiento-0.jpg",
+      "palabra": "enrarecimiento",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-diferentemente-0.jpg",
+      "palabra": "diferentemente",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-trotaconventos-0.jpg",
+      "palabra": "trotaconventos",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-estereoscopico-0.jpg",
+      "palabra": "estereoscopico",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fisioterapeuta-0.jpg",
+      "palabra": "fisioterapeuta",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-irregularmente-0.jpg",
+      "palabra": "irregularmente",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-traspasamiento-0.jpg",
+      "palabra": "traspasamiento",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tranquilamente-0.jpg",
+      "palabra": "tranquilamente",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-lateralizacion-0.jpg",
+      "palabra": "lateralizacion",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-particularismo-0.jpg",
+      "palabra": "particularismo",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desavecindarse-0.jpg",
+      "palabra": "desavecindarse",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-indistinguible-0.jpg",
+      "palabra": "indistinguible",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desatentamente-0.jpg",
+      "palabra": "desatentamente",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desmultiplicar-0.jpg",
+      "palabra": "desmultiplicar",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-guarnicioneria-0.jpg",
+      "palabra": "guarnicioneria",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-indiferenciado-0.jpg",
+      "palabra": "indiferenciado",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-alcantarillado-0.jpg",
+      "palabra": "alcantarillado",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-estereometrico-0.jpg",
+      "palabra": "estereometrico",
+      "longitud": 14
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ejemplificacion-0.jpg",
+      "palabra": "ejemplificacion",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-obscurecimiento-0.jpg",
+      "palabra": "obscurecimiento",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-parapsicologico-0.jpg",
+      "palabra": "parapsicologico",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sensacionalista-0.jpg",
+      "palabra": "sensacionalista",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-equiponderancia-0.jpg",
+      "palabra": "equiponderancia",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-productibilidad-0.jpg",
+      "palabra": "productibilidad",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-contraguerrilla-0.jpg",
+      "palabra": "contraguerrilla",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-terminantemente-0.jpg",
+      "palabra": "terminantemente",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fundamentalista-0.jpg",
+      "palabra": "fundamentalista",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-coadministrador-0.jpg",
+      "palabra": "coadministrador",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-majestuosamente-0.jpg",
+      "palabra": "majestuosamente",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-inderogabilidad-0.jpg",
+      "palabra": "inderogabilidad",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-allanabarrancos-0.jpg",
+      "palabra": "allanabarrancos",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-entormecimiento-0.jpg",
+      "palabra": "entormecimiento",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-intrascendental-0.jpg",
+      "palabra": "intrascendental",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-insaciablemente-0.jpg",
+      "palabra": "insaciablemente",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-neurofisiologia-0.jpg",
+      "palabra": "neurofisiologia",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-autorizadamente-0.jpg",
+      "palabra": "autorizadamente",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-microprocesador-0.jpg",
+      "palabra": "microprocesador",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-esponsorizacion-0.jpg",
+      "palabra": "esponsorizacion",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-comunicabilidad-0.jpg",
+      "palabra": "comunicabilidad",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-turboalternador-0.jpg",
+      "palabra": "turboalternador",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-fotolitografiar-0.jpg",
+      "palabra": "fotolitografiar",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-correspondencia-0.jpg",
+      "palabra": "correspondencia",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-antituberculoso-0.jpg",
+      "palabra": "antituberculoso",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desenhadamiento-0.jpg",
+      "palabra": "desenhadamiento",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-endurecidamente-0.jpg",
+      "palabra": "endurecidamente",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-discriminatorio-0.jpg",
+      "palabra": "discriminatorio",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desamortizacion-0.jpg",
+      "palabra": "desamortizacion",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ferromagnetismo-0.jpg",
+      "palabra": "ferromagnetismo",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-disconveniencia-0.jpg",
+      "palabra": "disconveniencia",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-electrificacion-0.jpg",
+      "palabra": "electrificacion",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-recrudecimiento-0.jpg",
+      "palabra": "recrudecimiento",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-videoaficionado-0.jpg",
+      "palabra": "videoaficionado",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desmadejamiento-0.jpg",
+      "palabra": "desmadejamiento",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-radionavegacion-0.jpg",
+      "palabra": "radionavegacion",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-superintendente-0.jpg",
+      "palabra": "superintendente",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-especificamente-0.jpg",
+      "palabra": "especificamente",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-descuidadamente-0.jpg",
+      "palabra": "descuidadamente",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-supraclavicular-0.jpg",
+      "palabra": "supraclavicular",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-autoliquidacion-0.jpg",
+      "palabra": "autoliquidacion",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-geoestacionario-0.jpg",
+      "palabra": "geoestacionario",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-agroalimentario-0.jpg",
+      "palabra": "agroalimentario",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-radioastronomia-0.jpg",
+      "palabra": "radioastronomia",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-indistintamente-0.jpg",
+      "palabra": "indistintamente",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-antropocentrico-0.jpg",
+      "palabra": "antropocentrico",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-embarazosamente-0.jpg",
+      "palabra": "embarazosamente",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-descabezamiento-0.jpg",
+      "palabra": "descabezamiento",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-monarquicamente-0.jpg",
+      "palabra": "monarquicamente",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-arrepentimiento-0.jpg",
+      "palabra": "arrepentimiento",
+      "longitud": 15
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sentenciosamente-0.jpg",
+      "palabra": "sentenciosamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-microelectronica-0.jpg",
+      "palabra": "microelectronica",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-antixeroftalmico-0.jpg",
+      "palabra": "antixeroftalmico",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-reestructuracion-0.jpg",
+      "palabra": "reestructuracion",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-antihipertensivo-0.jpg",
+      "palabra": "antihipertensivo",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-descontaminacion-0.jpg",
+      "palabra": "descontaminacion",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desalumbramiento-0.jpg",
+      "palabra": "desalumbramiento",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-transformamiento-0.jpg",
+      "palabra": "transformamiento",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-anquilostomiasis-0.jpg",
+      "palabra": "anquilostomiasis",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-irreversibilidad-0.jpg",
+      "palabra": "irreversibilidad",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-convenientemente-0.jpg",
+      "palabra": "convenientemente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desconceptuacion-0.jpg",
+      "palabra": "desconceptuacion",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-contemporizacion-0.jpg",
+      "palabra": "contemporizacion",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-hiperbolicamente-0.jpg",
+      "palabra": "hiperbolicamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-omnipotentemente-0.jpg",
+      "palabra": "omnipotentemente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-consecutivamente-0.jpg",
+      "palabra": "consecutivamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-instantaneamente-0.jpg",
+      "palabra": "instantaneamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desbaratadamente-0.jpg",
+      "palabra": "desbaratadamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-gubernativamente-0.jpg",
+      "palabra": "gubernativamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-prerromanticismo-0.jpg",
+      "palabra": "prerromanticismo",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desempolvoradura-0.jpg",
+      "palabra": "desempolvoradura",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-restablecimiento-0.jpg",
+      "palabra": "restablecimiento",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-enchiqueramiento-0.jpg",
+      "palabra": "enchiqueramiento",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-costarriquenismo-0.jpg",
+      "palabra": "costarriquenismo",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-irracionabilidad-0.jpg",
+      "palabra": "irracionabilidad",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-reblandecimiento-0.jpg",
+      "palabra": "reblandecimiento",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-proporcionalidad-0.jpg",
+      "palabra": "proporcionalidad",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-semitransparente-0.jpg",
+      "palabra": "semitransparente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-taquimecanografo-0.jpg",
+      "palabra": "taquimecanografo",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-correccionalista-0.jpg",
+      "palabra": "correccionalista",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desproveidamente-0.jpg",
+      "palabra": "desproveidamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-confidencialidad-0.jpg",
+      "palabra": "confidencialidad",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-intercomunicador-0.jpg",
+      "palabra": "intercomunicador",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-anticolonialista-0.jpg",
+      "palabra": "anticolonialista",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-intemperadamente-0.jpg",
+      "palabra": "intemperadamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-plenipotenciario-0.jpg",
+      "palabra": "plenipotenciario",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-enronquecimiento-0.jpg",
+      "palabra": "enronquecimiento",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-escolasticamente-0.jpg",
+      "palabra": "escolasticamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-propietariamente-0.jpg",
+      "palabra": "propietariamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desalentadamente-0.jpg",
+      "palabra": "desalentadamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-castellanizacion-0.jpg",
+      "palabra": "castellanizacion",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-interprofesional-0.jpg",
+      "palabra": "interprofesional",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-precipitadamente-0.jpg",
+      "palabra": "precipitadamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-tradicionalmente-0.jpg",
+      "palabra": "tradicionalmente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-justificadamente-0.jpg",
+      "palabra": "justificadamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desconocidamente-0.jpg",
+      "palabra": "desconocidamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-concienzudamente-0.jpg",
+      "palabra": "concienzudamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-premeditadamente-0.jpg",
+      "palabra": "premeditadamente",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-saltacharquillos-0.jpg",
+      "palabra": "saltacharquillos",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desparramamiento-0.jpg",
+      "palabra": "desparramamiento",
+      "longitud": 16
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-piezoelectricidad-0.jpg",
+      "palabra": "piezoelectricidad",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-internacionalista-0.jpg",
+      "palabra": "internacionalista",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-triboelectricidad-0.jpg",
+      "palabra": "triboelectricidad",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-contraproposicion-0.jpg",
+      "palabra": "contraproposicion",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-translaticiamente-0.jpg",
+      "palabra": "translaticiamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-insustancialmente-0.jpg",
+      "palabra": "insustancialmente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-telecinematografo-0.jpg",
+      "palabra": "telecinematografo",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-arremolinadamente-0.jpg",
+      "palabra": "arremolinadamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-envalentonamiento-0.jpg",
+      "palabra": "envalentonamiento",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-inexplicablemente-0.jpg",
+      "palabra": "inexplicablemente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-hipersensibilidad-0.jpg",
+      "palabra": "hipersensibilidad",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-particularizacion-0.jpg",
+      "palabra": "particularizacion",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-esplendorosamente-0.jpg",
+      "palabra": "esplendorosamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-capitidisminucion-0.jpg",
+      "palabra": "capitidisminucion",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-incorregiblemente-0.jpg",
+      "palabra": "incorregiblemente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-longitudinalmente-0.jpg",
+      "palabra": "longitudinalmente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ensoberbecimiento-0.jpg",
+      "palabra": "ensoberbecimiento",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-aerocriptografico-0.jpg",
+      "palabra": "aerocriptografico",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-hidrostaticamente-0.jpg",
+      "palabra": "hidrostaticamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-inconsolablemente-0.jpg",
+      "palabra": "inconsolablemente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-consubstanciacion-0.jpg",
+      "palabra": "consubstanciacion",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-honorificadamente-0.jpg",
+      "palabra": "honorificadamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-especulativamente-0.jpg",
+      "palabra": "especulativamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-irresistiblemente-0.jpg",
+      "palabra": "irresistiblemente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-impracticabilidad-0.jpg",
+      "palabra": "impracticabilidad",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-privilegiadamente-0.jpg",
+      "palabra": "privilegiadamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desacompanamiento-0.jpg",
+      "palabra": "desacompanamiento",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-hospitalariamente-0.jpg",
+      "palabra": "hospitalariamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-descabelladamente-0.jpg",
+      "palabra": "descabelladamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-indispensabilidad-0.jpg",
+      "palabra": "indispensabilidad",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-menospreciamiento-0.jpg",
+      "palabra": "menospreciamiento",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desnuclearizacion-0.jpg",
+      "palabra": "desnuclearizacion",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-irracionablemente-0.jpg",
+      "palabra": "irracionablemente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ininteligibilidad-0.jpg",
+      "palabra": "ininteligibilidad",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-incongruentemente-0.jpg",
+      "palabra": "incongruentemente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-incombustibilidad-0.jpg",
+      "palabra": "incombustibilidad",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-problematicamente-0.jpg",
+      "palabra": "problematicamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-internacionalidad-0.jpg",
+      "palabra": "internacionalidad",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desnaturalizacion-0.jpg",
+      "palabra": "desnaturalizacion",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-empequenecimiento-0.jpg",
+      "palabra": "empequenecimiento",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desfavorablemente-0.jpg",
+      "palabra": "desfavorablemente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-conmensurabilidad-0.jpg",
+      "palabra": "conmensurabilidad",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-despanzurramiento-0.jpg",
+      "palabra": "despanzurramiento",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-imperturbabilidad-0.jpg",
+      "palabra": "imperturbabilidad",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-taquigraficamente-0.jpg",
+      "palabra": "taquigraficamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-impresionabilidad-0.jpg",
+      "palabra": "impresionabilidad",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-intempestivamente-0.jpg",
+      "palabra": "intempestivamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-involuntariamente-0.jpg",
+      "palabra": "involuntariamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-estramboticamente-0.jpg",
+      "palabra": "estramboticamente",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-ensangrentamiento-0.jpg",
+      "palabra": "ensangrentamiento",
+      "longitud": 17
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-anticonstitucional-0.jpg",
+      "palabra": "anticonstitucional",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-indestructibilidad-0.jpg",
+      "palabra": "indestructibilidad",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-electrocardiograma-0.jpg",
+      "palabra": "electrocardiograma",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desarrebozadamente-0.jpg",
+      "palabra": "desarrebozadamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-independientemente-0.jpg",
+      "palabra": "independientemente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desconcertadamente-0.jpg",
+      "palabra": "desconcertadamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-entrerrenglonadura-0.jpg",
+      "palabra": "entrerrenglonadura",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desherrumbramiento-0.jpg",
+      "palabra": "desherrumbramiento",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-electrofisiologico-0.jpg",
+      "palabra": "electrofisiologico",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desorganizadamente-0.jpg",
+      "palabra": "desorganizadamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-nacionalsocialismo-0.jpg",
+      "palabra": "nacionalsocialismo",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-semicircunferencia-0.jpg",
+      "palabra": "semicircunferencia",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-interparlamentario-0.jpg",
+      "palabra": "interparlamentario",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-anarcosindicalista-0.jpg",
+      "palabra": "anarcosindicalista",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-injustificadamente-0.jpg",
+      "palabra": "injustificadamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desautorizadamente-0.jpg",
+      "palabra": "desautorizadamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-constitucionalismo-0.jpg",
+      "palabra": "constitucionalismo",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desembarazadamente-0.jpg",
+      "palabra": "desembarazadamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-farmacopsiquiatria-0.jpg",
+      "palabra": "farmacopsiquiatria",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-supersticiosamente-0.jpg",
+      "palabra": "supersticiosamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-proporcionadamente-0.jpg",
+      "palabra": "proporcionadamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-paleofitopatologia-0.jpg",
+      "palabra": "paleofitopatologia",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-incondicionalmente-0.jpg",
+      "palabra": "incondicionalmente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-nacionalsocialista-0.jpg",
+      "palabra": "nacionalsocialista",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-impermeabilizacion-0.jpg",
+      "palabra": "impermeabilizacion",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-anticoncepcionismo-0.jpg",
+      "palabra": "anticoncepcionismo",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-constitucionalista-0.jpg",
+      "palabra": "constitucionalista",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-despilfarradamente-0.jpg",
+      "palabra": "despilfarradamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desconveniblemente-0.jpg",
+      "palabra": "desconveniblemente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-extraparlamentario-0.jpg",
+      "palabra": "extraparlamentario",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desembravecimiento-0.jpg",
+      "palabra": "desembravecimiento",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-diezmilmillonesimo-0.jpg",
+      "palabra": "diezmilmillonesimo",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-espectrofotometria-0.jpg",
+      "palabra": "espectrofotometria",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-irreprensiblemente-0.jpg",
+      "palabra": "irreprensiblemente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-reglamentariamente-0.jpg",
+      "palabra": "reglamentariamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-sobrecalentamiento-0.jpg",
+      "palabra": "sobrecalentamiento",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desaprovechamiento-0.jpg",
+      "palabra": "desaprovechamiento",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-superproparoxitono-0.jpg",
+      "palabra": "superproparoxitono",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-indeterminadamente-0.jpg",
+      "palabra": "indeterminadamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-intransmutabilidad-0.jpg",
+      "palabra": "intransmutabilidad",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desapercibidamente-0.jpg",
+      "palabra": "desapercibidamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-triboluminiscencia-0.jpg",
+      "palabra": "triboluminiscencia",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-electrometalurgico-0.jpg",
+      "palabra": "electrometalurgico",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-descorazonadamente-0.jpg",
+      "palabra": "descorazonadamente",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-democratacristiano-0.jpg",
+      "palabra": "democratacristiano",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-desacuartelamiento-0.jpg",
+      "palabra": "desacuartelamiento",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-cristianodemocrata-0.jpg",
+      "palabra": "cristianodemocrata",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-contraprogramacion-0.jpg",
+      "palabra": "contraprogramacion",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-castellanomanchego-0.jpg",
+      "palabra": "castellanomanchego",
+      "longitud": 18
+    },
+    {
+      "path": "/home/cecilia/datasets/spanish-htr/datos_entrenamiento_augmented/PERFECT_CUT_a_z_1_9_aug_SYNTHETIC/synthetic-escenograficamente-0.jpg",
+      "palabra": "escenograficamente",
+      "longitud": 18
+    }
+  ],
+  "metadata": {
+    "n_samples": 850,
+    "n_unique_words": 850,
+    "words_by_length_selected": {
+      "2": 50,
+      "3": 50,
+      "4": 50,
+      "5": 50,
+      "6": 50,
+      "7": 50,
+      "8": 50,
+      "9": 50,
+      "10": 50,
+      "11": 50,
+      "12": 50,
+      "13": 50,
+      "14": 50,
+      "15": 50,
+      "16": 50,
+      "17": 50,
+      "18": 50
+    },
+    "seed": 42,
+    "target_per_length": 50,
+    "max_length": 18,
+    "source": "synthetic_annotation.json del aug existente",
+    "filtered_chars_outside_vocab": [
+      "ü"
+    ]
+  }
+}

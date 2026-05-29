@@ -278,7 +278,7 @@ def lora_state_dict(model: nn.Module) -> dict:
     return {
         k: v
         for k, v in model.state_dict().items()
-        if "lora_A" in k or "lora_B" in k
+        if "lora_" in k
     }
 
 

@@ -1,0 +1,126 @@
+{
+  "train": [],
+  "val": [],
+  "test": [
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/m02-087-00.png",
+      "palabra": "But privately he turned out to be as friendly as",
+      "longitud": 48
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/m02-087-01.png",
+      "palabra": "Mr. Wise the tube manufacturer, to have the same adolescent",
+      "longitud": 59
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/m02-087-02.png",
+      "palabra": "openness and freshness, though perhaps not the same",
+      "longitud": 51
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/m02-087-03.png",
+      "palabra": "maturity. One remembered that he was a lawyer",
+      "longitud": 45
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/m02-087-04.png",
+      "palabra": "by training, and suspected that the points he made",
+      "longitud": 50
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/m02-087-05.png",
+      "palabra": "so sharply in international politics were as abstract",
+      "longitud": 53
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/m02-087-06.png",
+      "palabra": "to him as those a lawyer makes in a court",
+      "longitud": 41
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/m02-087-07.png",
+      "palabra": "of law.",
+      "longitud": 7
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-00.png",
+      "palabra": "\"Willie,\" the judge said huskily,",
+      "longitud": 33
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-01.png",
+      "palabra": "\"that was as pretty a piece of seamans-",
+      "longitud": 39
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-02.png",
+      "palabra": "hip as I ever saw. That boy of",
+      "longitud": 30
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-03.png",
+      "palabra": "mine seems to know how to do",
+      "longitud": 28
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-04.png",
+      "palabra": "everything, when he wants to.\"",
+      "longitud": 30
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-05.png",
+      "palabra": "\"3Naw,\" disputed Willie. 3\"Just",
+      "longitud": 31
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-06.png",
+      "palabra": "play in damn fine luck this time.",
+      "longitud": 33
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-07.png",
+      "palabra": "He plenty smart though.\" As they",
+      "longitud": 32
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-08.png",
+      "palabra": "reached the pier, the judge on legs",
+      "longitud": 35
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-09.png",
+      "palabra": "that were a little unsteady, they",
+      "longitud": 33
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-10.png",
+      "palabra": "found Bueno Buck, now on the",
+      "longitud": 28
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n03-106-11.png",
+      "palabra": "pier, leading the yawl toward",
+      "longitud": 29
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n04-100-00.png",
+      "palabra": "Ever known us bowl a wide about your Service?",
+      "longitud": 45
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n04-100-01.png",
+      "palabra": "Check and counter-check - nothing but the truth.",
+      "longitud": 48
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n04-100-02.png",
+      "palabra": "Somewhat embarrassing, what?\" \"How can the",
+      "longitud": 42
+    },
+    {
+      "path": "/home/cecilia/projects/HTR-best-practices/data/IAM/processed_lines/test/n04-100-03.png",
+      "palabra": "truth be embarrassing?\" John sipped his double",
+      "longitud": 46
+    }
+  ]
+}

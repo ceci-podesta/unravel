@@ -1,0 +1,40 @@
+{
+  "config": {
+    "r": 8,
+    "alpha": 16,
+    "lora_dropout": 0.1,
+    "lr": 0.0005,
+    "batch_size": 16,
+    "epochs": 1,
+    "head": "both",
+    "seed": 42,
+    "target_modules": [
+      "top.fnl.1",
+      "top.cnn.1",
+      "top.rec"
+    ]
+  },
+  "lora_stats": {
+    "trainable_params": 142688,
+    "total_params": 3306956,
+    "percent_trainable": 4.31478374674474
+  },
+  "history": {
+    "train_loss": [
+      308.50218963623047
+    ],
+    "val_loss": [
+      363.36109924316406
+    ],
+    "val_cer_micro": [
+      1.2733812949640289
+    ],
+    "val_wer": [
+      1.0
+    ]
+  },
+  "best_val_cer_micro": 1.2733812949640289,
+  "elapsed_seconds": 5.071595191955566,
+  "n_train": 5490,
+  "n_val": 610
+}

@@ -1,0 +1,55 @@
+{
+  "config": {
+    "lr": 5e-05,
+    "batch_size": 8,
+    "grad_accum_steps": 2,
+    "effective_batch": 16,
+    "clip_grad_norm": 1.0,
+    "warmup_steps": 0,
+    "init_custom_chars": true,
+    "epochs": 3,
+    "head": "both",
+    "seed": 42
+  },
+  "trainable_stats": {
+    "trainable_params": 7370860,
+    "total_params": 7370860,
+    "percent_trainable": 100.0
+  },
+  "history": {
+    "train_loss": [
+      7.075672411280537,
+      2.5114401493339353,
+      1.9097598160995475
+    ],
+    "train_cer_micro": [
+      0.6021699819168174,
+      0.37662337662337664,
+      0.30570902394106814
+    ],
+    "train_wer": [
+      0.9083333333333333,
+      0.7,
+      0.675
+    ],
+    "val_loss": [
+      3.113615410476081,
+      2.0694503215073192,
+      1.6949593658837896
+    ],
+    "val_cer_micro": [
+      0.606079598871827,
+      0.3813851457223441,
+      0.3223127546223754
+    ],
+    "val_wer": [
+      0.9109540636042402,
+      0.7462897526501767,
+      0.6742049469964664
+    ]
+  },
+  "best_val_cer_micro": 0.3223127546223754,
+  "elapsed_seconds": 233.74585938453674,
+  "n_train": 6572,
+  "n_val": 1415
+}
